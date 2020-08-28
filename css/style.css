@@ -1,17 +1,17 @@
 body {
-    background-color: #00fddc;
-    color: #122932;
+    background-color: #ddddff;
 }
 
 .header {
     padding: 1em;
-    background-color: #ffb100;
+    background-color: #122932;
     font-family: 'Homemade Apple', sans-serif;
+    color: #ff5d73;
 }
 
  #title {
     font-size: 4em;
-    text-shadow: 4px 4px 4px #e8d33f;
+    text-shadow: 4px 4px 4px #ffffff;
     text-align: center;
 }
 
@@ -23,5 +23,7 @@ body {
 
 .blurb {
     background-image: url('../img/graph.png');
-    font-family: 'Homemade Apple', sans-serif;
+    font-family: 'Abel', sans-serif;
+    color: #122932;
+    font-size: 1.5em;
 }
