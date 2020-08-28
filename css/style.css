@@ -1,0 +1,29 @@
+body {
+    background-color: #ddddff;
+}
+
+.header {
+    padding: 1em;
+    background-color: #122932;
+    font-family: 'Homemade Apple', sans-serif;
+    color: #ff5d73;
+}
+
+ #title {
+    font-size: 4em;
+    text-shadow: 4px 4px 4px #ffffff;
+    text-align: center;
+}
+
+.stuck {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.blurb {
+    background-image: url('../img/graph.png');
+    font-family: 'Abel', sans-serif;
+    color: #122932;
+    font-size: 1.5em;
+}
