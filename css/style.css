@@ -1,27 +1,65 @@
 body {
     background-color: #ddddff;
+    margin: 0 auto;
+    padding: 0;
 }
 
-.header {
-    padding: 1em;
+header {
+    padding: 1%;
     background-color: #122932;
     font-family: 'Homemade Apple', sans-serif;
     color: #ff5d73;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
- #title {
-    font-size: 4em;
+h1 {
+    font-size: 4rem;
     text-shadow: 4px 4px 4px #ffffff;
     text-align: center;
+    flex: 5;
 }
 
-.stuck {
-    position: fixed;
-    top: 0;
-    width: 100%;
+header p {
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
 }
 
-.blurb {
+nav {
+    height: 2em;
+    flex: 50%;
+    display: flex;
+    float: right;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+}
+
+nav li {
+    display: block;
+    text-align: center;
+    flex: 1;
+}
+
+nav a, nav span {
+    display: block;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 1.7;
+    color: #ffffff;
+}
+
+main {
+    width: 95%;
+    padding: 2em;
+}
+
+article {
     background-image: url('../img/graph.png');
     font-family: 'Abel', sans-serif;
     color: #122932;
