@@ -1,67 +1,50 @@
 body {
     background-color: #ddddff;
-    margin: 0 auto;
-    padding: 0;
+    margin: 0;
+    font-family: 'Abel', sans-serif;
 }
 
 header {
-    padding: 1%;
     background-color: #122932;
-    font-family: 'Homemade Apple', sans-serif;
-    color: #ff5d73;
-    margin-bottom: 10px;
-    display: flex;
-    flex-flow: row wrap;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 2em;
 }
 
 h1 {
-    font-size: 4rem;
+    font-family: 'Homemade Apple', sans-serif;
+    font-size: 3em;
     text-shadow: 4px 4px 4px #ffffff;
     text-align: center;
-    flex: 5;
+    color: #ff5d73;
 }
 
 header p {
-    font-size: 2em;
+    font-family: 'Homemade Apple', sans-serif;
     text-align: center;
-    color: #ffffff;
 }
 
 nav {
-    height: 2em;
-    flex: 50%;
-    display: flex;
-    float: right;
+    background-color: #ff5d73;
 }
 
 nav ul {
-    padding: 0;
     list-style-type: none;
-    flex: 2;
 }
 
 nav li {
-    display: block;
-    text-align: center;
-    flex: 1;
+    text-decoration: none;
+    display: inline;
 }
 
-nav a, nav span {
-    display: block;
-    font-size: 2rem;
-    height: 3rem;
-    line-height: 1.7;
-    color: #ffffff;
+nav a {
+    color: white;
 }
 
-main {
-    width: 95%;
-    padding: 2em;
-}
+nav a:hover {
+    background-color: #555555;
+  }
 
-article {
-    background-image: url('../img/graph.png');
-    font-family: 'Abel', sans-serif;
-    color: #122932;
-    font-size: 1.5em;
+nav a[href="#"] {
+    background-color: #555555;
 }
