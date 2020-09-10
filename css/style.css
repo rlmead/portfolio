@@ -49,3 +49,37 @@ nav a:hover {
 nav a[href="#"] {
     background-color: #555555;
 }
+
+main {
+
+}
+
+.collapsible {
+    display: inline;
+    width: 20%;
+    background-image: url('../img/graph.png');
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px;
+    border: outset;
+    border-radius: 8px;
+}
+
+.collapsible:hover {
+    border: inset;
+}
+
+/* .active {
+} */
+
+.thumbnail {
+}
+
+.blog_post {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-image: url('../img/graph.png');
+}
