@@ -1,26 +1,22 @@
 body {
-    background-color: #ddddff;
+    background-color: #8BAAAD;
+    color: #000F08;
     margin: 0;
     font-family: 'Abel', sans-serif;
 }
 
 header {
-    background-color: #122932;
-    color: #ffffff;
+    background-color: #4E4C67;
     font-size: 2em;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 h1 {
     font-family: 'Homemade Apple', sans-serif;
-    text-shadow: 4px 4px 4px #ffffff;
+    text-shadow: 4px 4px 4px #93B5C6;
     text-align: center;
-    color: #ff5d73;
-}
-
-header p {
-    font-family: 'Homemade Apple', sans-serif;
-    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
@@ -28,7 +24,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ff5d73;
+    background-color: #F4FFF8;
     text-align: center;
 }
 
@@ -38,20 +34,26 @@ nav li {
 }
 
 nav a {
-    color: white;
+    text-decoration: none;
+    color: #000F08;
     padding: 20px;
 }
 
 nav a:hover {
-    background-color: #555555;
+    background-color: #DDEDAA;
   }
 
 nav a[href="#"] {
-    background-color: #555555;
+    background-color: #DDEDAA;
 }
 
 main {
+    font-size: 2em;
+}
 
+button img {
+    width: auto;
+    height: 200px;
 }
 
 .collapsible {
@@ -68,7 +70,7 @@ main {
 }
 
 .collapsible:hover {
-    border: inset;
+    /* border: inset; */
 }
 
 /* .active {
@@ -78,8 +80,8 @@ main {
 }
 
 .blog_post {
-    padding: 0 18px;
+    padding: 18px;
+    margin: 10px;
     display: none;
-    overflow: hidden;
     background-image: url('../img/graph.png');
 }
