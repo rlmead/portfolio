@@ -52,13 +52,13 @@ main {
 }
 
 button img {
-    width: auto;
     height: 200px;
+    width: auto;
 }
 
 .collapsible {
     display: inline;
-    width: 20%;
+    width: 23%;
     background-image: url('../img/graph.png');
     font-family: 'Abel', sans-serif;
     font-size: 1em;
@@ -81,7 +81,7 @@ button img {
 
 .blog_post {
     padding: 18px;
-    margin: 10px;
+    margin: 1%;
     display: none;
     background-image: url('../img/graph.png');
 }
