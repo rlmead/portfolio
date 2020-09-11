@@ -1,67 +1,87 @@
 body {
-    background-color: #ddddff;
-    margin: 0 auto;
-    padding: 0;
+    background-color: #8BAAAD;
+    color: #000F08;
+    margin: 0;
+    font-family: 'Abel', sans-serif;
 }
 
 header {
-    padding: 1%;
-    background-color: #122932;
-    font-family: 'Homemade Apple', sans-serif;
-    color: #ff5d73;
-    margin-bottom: 10px;
-    display: flex;
-    flex-flow: row wrap;
+    background-color: #4E4C67;
+    font-size: 2em;
+    padding-top: 5px;
 }
 
 h1 {
-    font-size: 4rem;
-    text-shadow: 4px 4px 4px #ffffff;
+    font-family: 'Homemade Apple', sans-serif;
+    text-shadow: 4px 4px 4px #93B5C6;
     text-align: center;
-    flex: 5;
-}
-
-header p {
-    font-size: 2em;
-    text-align: center;
-    color: #ffffff;
-}
-
-nav {
-    height: 2em;
-    flex: 50%;
-    display: flex;
-    float: right;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
-    padding: 0;
     list-style-type: none;
-    flex: 2;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F4FFF8;
+    text-align: center;
 }
 
 nav li {
-    display: block;
-    text-align: center;
-    flex: 1;
+    text-decoration: none;
+    display: inline;
 }
 
-nav a, nav span {
-    display: block;
-    font-size: 2rem;
-    height: 3rem;
-    line-height: 1.7;
-    color: #ffffff;
+nav a {
+    text-decoration: none;
+    color: #000F08;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #DDEDAA;
+  }
+
+nav a[href="#"] {
+    background-color: #DDEDAA;
 }
 
 main {
-    width: 95%;
-    padding: 2em;
+    font-size: 2em;
 }
 
-article {
+button img {
+    height: 200px;
+    width: auto;
+}
+
+.collapsible {
+    display: inline;
+    width: 23%;
     background-image: url('../img/graph.png');
     font-family: 'Abel', sans-serif;
-    color: #122932;
-    font-size: 1.5em;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px;
+    border: outset;
+    border-radius: 8px;
+}
+
+.collapsible:hover {
+    /* border: inset; */
+}
+
+/* .active {
+} */
+
+.thumbnail {
+}
+
+.blog_post {
+    padding: 18px;
+    margin: 1%;
+    display: none;
+    background-image: url('../img/graph.png');
 }
