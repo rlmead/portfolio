@@ -1,7 +1,7 @@
 body {
     background-color: #8BAAAD;
     color: #000F08;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Abel', sans-serif;
 }
 
@@ -19,6 +19,10 @@ h1 {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -34,7 +38,6 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
     color: #000F08;
     padding: 20px;
 }
@@ -51,15 +54,9 @@ main {
     font-size: 2em;
 }
 
-button img {
-    height: 200px;
-    width: auto;
-}
-
-.collapsible {
+button {
     display: inline;
     width: 23%;
-    background-image: url('../img/graph.png');
     font-family: 'Abel', sans-serif;
     font-size: 1em;
     cursor: pointer;
@@ -67,6 +64,19 @@ button img {
     margin: 10px;
     border: outset;
     border-radius: 8px;
+}
+
+.collapsible {
+    background-image: url('../img/graph.png');
+}
+
+.project {
+    background-color: #ffffff
+}
+
+button img {
+    height: 150px;
+    width: auto;
 }
 
 .collapsible:hover {
