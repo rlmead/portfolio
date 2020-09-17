@@ -86,9 +86,12 @@ button img {
 .thumbnail {
 }
 
-.blog_post {
+article {
     padding: 18px;
     margin: 1%;
-    display: none;
     background-image: url('../img/graph.png');
+}
+
+.blog_post {
+    display: none;
 }
