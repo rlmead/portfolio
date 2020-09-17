@@ -64,14 +64,11 @@ button {
     margin: 10px;
     border: outset;
     border-radius: 8px;
+    background-color: #ffffff;
 }
 
 .collapsible {
     background-image: url('../img/graph.png');
-}
-
-.project {
-    background-color: #ffffff
 }
 
 button img {
