@@ -25,15 +25,15 @@ const blog_posts = [
             "i like that the long-term, widespread usage of HTML, CSS, and Javascript has driven development of a powerful variety of capabilities, and that there are active communities developing and improving these tools. on the flip side, this means that there's a huge number of elements, attributes, and functions to learn about, which feels daunting. fortunately, i'm walking a well-worn path, so it seems easy to find documentation and help when necessary.",
             "it's cool that these three separate languages developed in tandem for handling these three aspects of web development. i do think it works well, and i've been structuring my workflow around these three aspects:",
             [
-            "build the basic HTML structure of the page",
-            "do a bit of prettifying with CSS",
-            "plug in all the functionality with Javascript"
+                "build the basic HTML structure of the page",
+                "do a bit of prettifying with CSS",
+                "plug in all the functionality with Javascript"
             ],
             "i think i'll try flipping steps 2 and 3 next time.",
             "i wonder what it would be like if one language had developed to handle all these aspects. would it be easier to use, without juggling different syntax? would it even work? does such a language exist?",
             "my biggest challenge during pre-work has been wrangling my creative ideas. the ideas i have on top of the MVP have had me spending more time than strictly necessary on a few of the projects. still, that's not such a bad thing, because i enjoy thinking creatively and figuring out how to do stuff.",
             "our daily standups were the biggest help during the pre-work phase. it's been great to be able to ask questions every day. reporting on my progress to the group regularly has helped me keep my projects moving.",
-            "this part-time phase has also been helpful for figuring out what i have the capacity to do, how to prioritize my goals, and how to maintain balance. i hope i can continue to do this going into the full-time phase, although it's clear to me that it's going to be hard!"            
+            "this part-time phase has also been helpful for figuring out what i have the capacity to do, how to prioritize my goals, and how to maintain balance. i hope i can continue to do this going into the full-time phase, although it's clear to me that it's going to be hard!"
         ]
     },
     {
@@ -45,10 +45,10 @@ const blog_posts = [
             "this week we learned more about html and css, then added javascript to complete the beautiful layer cake of programming languages that we'll use for front-end development. i know i still have <em>a lot</em> to learn about all three, but i'm already excited about what i've been able to do with my blog!",
             "this week's updates include:",
             [
-            "css code cleanup",
-            "formatting and color makeover",
-            "interactive buttons that expand to display blog posts",
-            "a nav bar, and the base structure for the new pages it points to"
+                "css code cleanup",
+                "formatting and color makeover",
+                "interactive buttons that expand to display blog posts",
+                "a nav bar, and the base structure for the new pages it points to"
             ],
             "there's still more to do, but i feel good about my progress.",
             "my future self may laugh at this, but i'll say it: html makes sense to me! i've got lots to learn, but it seems straightforward. however, i need more practice using css to put the html elements where i want them and make them look beautiful. this weekend i'm planning to get some gamified css practice.",
@@ -79,9 +79,9 @@ const blog_posts = [
             "what a week!",
             "this week's coursework met my expectations in some ways; where it didn't, it exceeded them.",
             [
-            "i expected the instructors to share excellent resources with us. i didn't expect quite so many resources!",
-            "i expected to spend all of my afternoons stuffing new information into my head. i didn't expect my learning time to stretch well into my evenings (and to feel so motivated to spend that extra time on the course).",
-            "i expected to learn just a little bit more about web development. i didn't expect to learn such a clear, straightforward approach to managing my local development environment."
+                "i expected the instructors to share excellent resources with us. i didn't expect quite so many resources!",
+                "i expected to spend all of my afternoons stuffing new information into my head. i didn't expect my learning time to stretch well into my evenings (and to feel so motivated to spend that extra time on the course).",
+                "i expected to learn just a little bit more about web development. i didn't expect to learn such a clear, straightforward approach to managing my local development environment."
             ],
             "my biggest struggle this week has been <i>taking it all in.</i> i tend to read things very thoroughly - i worry that i'll miss something if i just skim. about halfway through the week i realized that i had to speed up to meet the demo deadline, so i started moving faster. i'm nervous about keeping up with the pace in the coming weeks, but i'm up for the challenge.",
             "in planning and developing the bare bones of this blog, i've started confronting the gap between what i know about web development, and what i'd like to know. i guess i was already aware of that gap, and that's why i'm taking this course. i'm excited to begin filling in that gap - especially by learning more about javascript, and making websites interactive and functional.",
