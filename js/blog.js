@@ -1,4 +1,4 @@
-const blog_posts = [
+const blog_data = [
     {
         "date": "09/25/20",
         "title": "full-time!",
