@@ -1,8 +1,6 @@
 // define consts for html elements
-let parent = document.getElementById('parent');
-
-// set state to 'blog' (default) upon loading
-let page_state = 'blog';
+const parent = document.getElementById('parent');
+const nav_buttons = document.getElementsByClassName('nav-item');
 
 // functions to turn data files into html elements
 
@@ -25,7 +23,31 @@ function populate_article(article_array, parent_element) {
     }
 }
 
-// trigger state changes when nav buttons are clicked
+// function to manage the different rules for loading different pages
+function load_page(state) {
+    console.log(state);
+    parent.innerHTML = '';
+    switch (state) {
+        case 'blog':
+            break;
+        case 'projects':
+            break;
+        case 'links':
+            break;
+        case 'about':
+            populate_article(about_data, parent);
+            break;
+    }
+}
 
-populate_article(about_data, parent);
+// set state to 'blog' (default) upon loading
+let page_state = 'blog';
+load_page(page_state);
 
+// add click eventListeners to nav buttons to trigger page changes
+for (let b = 0; b < nav_buttons.length; b++) {
+    let state = nav_buttons[b].textContent;
+    nav_buttons[b].addEventListener('click', function () {
+        load_page(state)
+    });
+}
