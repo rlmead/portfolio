@@ -23,8 +23,8 @@ const projects_data = [
     {
         "href": "https://github.com/rlmead/pseudocode/blob/master/pseudocode.md",
         "title": "pseudocode",
-        "date": "./img/pseudocode.png",
-        "img_src": "09/2020",
+        "date": "09/2020",
+        "img_src": "./img/pseudocode.png",
         "img_alt": "pseudocode screenshot"
     }
 ]
