@@ -82,4 +82,4 @@ for (let b = 0; b < nav_buttons.length; b++) {
 }
 
 // set state to 'blog' (default) upon loading
-load_page();
+load_page('blog');
