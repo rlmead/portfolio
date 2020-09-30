@@ -35,18 +35,15 @@ nav ul {
 nav li {
     text-decoration: none;
     display: inline;
-}
-
-nav a {
     color: #000F08;
     padding: 20px;
 }
 
-nav a:hover {
+nav li:hover {
     background-color: #DDEDAA;
   }
 
-nav a[href="#"] {
+nav .active {
     background-color: #DDEDAA;
 }
 
