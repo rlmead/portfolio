@@ -50,9 +50,11 @@ function populate_article(article_array, parent_element) {
 // function to manage the different rules for loading different pages
 function load_page(state) {
     parent_container.innerHTML = '';
+    for (let b of nav_buttons) {
+        b.classList.remove('active');
+    };
+    document.getElementById(state).classList.add('active');
     switch (state) {
-        case 'blog':
-            break;
         case 'projects':
             for (let p of projects_data) {
                 populate_link_button(p, parent_container);
@@ -66,15 +68,18 @@ function load_page(state) {
         case 'about':
             populate_article(about_data, parent_container);
             break;
-    }
+        default:
+            console.log("default");
+            break;
+        }
 }
-
-// set state to 'blog' (default) upon loading
-let page_state = 'blog';
-load_page(page_state);
 
 // add click eventListeners to nav buttons to trigger page changes
 for (let b = 0; b < nav_buttons.length; b++) {
     let state = nav_buttons[b].textContent;
+    nav_buttons[b].id = state;
     nav_buttons[b].addEventListener('click', () => load_page(state));
 }
+
+// set state to 'blog' (default) upon loading
+load_page();
