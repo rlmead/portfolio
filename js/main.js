@@ -1,8 +1,31 @@
 // define consts for html elements
-const parent_container = document.getElementById('parent_container');
+const parent_row = document.getElementById('parent_row');
 const nav_buttons = document.getElementsByClassName('nav-item');
 
 // define functions to turn data files into html elements
+function populate_blog(blog_object, parent_element) {
+    // create a card to click on with all the necessary elements and classes
+    let card = document.createElement('div');
+    card.classList.add('card');
+    let image = document.createElement('img');
+    image.setAttribute('src','img/clock.png');
+    image.setAttribute('alt',blog_object.img_alt);
+    card.appendChild(image);
+    // run populate_article(content, what's the parent??? parent_row?)
+    // append everything to everything
+    // add event listener to blog buttons to change next sibling's class upon click
+    parent_element.appendChild(card);
+
+/* <div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div> */
+
+}
 
 function populate_link_button(link_object, parent_element) {
     let link = document.createElement('a');
@@ -49,7 +72,7 @@ function populate_article(article_array, parent_element) {
 
 // function to manage the different rules for loading different pages
 function load_page(state) {
-    parent_container.innerHTML = '';
+    parent_row.innerHTML = '';
     for (let b of nav_buttons) {
         b.classList.remove('active');
     };
@@ -57,19 +80,28 @@ function load_page(state) {
     switch (state) {
         case 'projects':
             for (let p of projects_data) {
-                populate_link_button(p, parent_container);
+                populate_link_button(p, parent_row);
             }
             break;
         case 'links':
             for (let l of links_data) {
-                populate_link_button(l, parent_container);
+                populate_link_button(l, parent_row);
             }
             break;
         case 'about':
-            populate_article(about_data, parent_container);
+            populate_article(about_data, parent_row);
             break;
         default:
-            console.log("default");
+            let columns = [];
+            for (let i = 0; i < 3; i++) {
+                eval(`var column_${i} = document.createElement('div');`);
+                eval(`columns.push(column_${i});`);
+                columns[i].setAttribute('class','col-md-4');
+                parent_row.appendChild(columns[i]);
+            }
+            for (let b = 0; b < blog_data.length; b++) {
+                populate_blog(blog_data[b], columns[b%3]);
+            }
             break;
         }
 }
