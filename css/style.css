@@ -5,6 +5,7 @@ html,body {
 body {
     background-color: #8BAAAD;
     font-family: 'Abel', sans-serif;
+    font-size: 1.5em;
 }
 
 h1 {
@@ -27,10 +28,6 @@ nav li:hover {
 
 nav .active {
     background-color: #DDEDAA;
-}
-
-main {
-    font-size: 1.5em;
 }
 
 button {
