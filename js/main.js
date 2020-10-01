@@ -92,15 +92,11 @@ function load_page(state) {
             populate_article(about_data, parent_row);
             break;
         default:
-            let columns = [];
-            for (let i = 0; i < 3; i++) {
-                eval(`var column_${i} = document.createElement('div');`);
-                eval(`columns.push(column_${i});`);
-                columns[i].setAttribute('class','col-md-4');
-                parent_row.appendChild(columns[i]);
-            }
-            for (let b = 0; b < blog_data.length; b++) {
-                populate_blog(blog_data[b], columns[b%3]);
+            for (let b of blog_data) {
+                let column = document.createElement('div');
+                column.setAttribute('class','col-md-4');
+                populate_blog(b, column);
+                parent_row.appendChild(column);
             }
             break;
         }
