@@ -1,42 +1,24 @@
-body {
-    background-color: #8BAAAD;
-    color: #000F08;
-    margin: 0 auto;
-    font-family: 'Abel', sans-serif;
+html,body {
+    height:100vh;
 }
 
-header {
-    background-color: #4E4C67;
-    font-size: 2em;
-    padding-top: 5px;
+body {
+    background-color: #8BAAAD;
+    font-family: 'Abel', sans-serif;
 }
 
 h1 {
     font-family: 'Homemade Apple', sans-serif;
     text-shadow: 4px 4px 4px #93B5C6;
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #F4FFF8;
     text-align: center;
 }
 
 nav li {
-    text-decoration: none;
-    display: inline;
-    color: #000F08;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav li:hover {
@@ -52,20 +34,12 @@ main {
 }
 
 button {
-    display: inline;
-    width: 23%;
-    font-family: 'Abel', sans-serif;
     font-size: 1em;
     cursor: pointer;
     padding: 20px;
     margin: 10px;
     border: outset;
     border-radius: 8px;
-    background-color: #ffffff;
-}
-
-.collapsible {
-    background-image: url('../img/graph.png');
 }
 
 button img {
@@ -73,22 +47,8 @@ button img {
     width: auto;
 }
 
-.collapsible:hover {
-    /* border: inset; */
-}
-
-/* .active {
-} */
-
-.thumbnail {
-}
-
 article {
     padding: 18px;
     margin: 1%;
     background-image: url('../img/graph.png');
-}
-
-.blog_post {
-    display: none;
 }
