@@ -26,7 +26,7 @@ function populate_blog(blog_object, parent_element) {
     parent_element.appendChild(card);
     // create hidden article element
     let article_column = document.createElement('div');
-    article_column.setAttribute('class', 'col-md-8 hidden');
+    article_column.setAttribute('class', 'col-md-8 hidden mb-4');
     populate_article(blog_object.content, article_column);
     parent_row.appendChild(article_column);
     // add event listener to blog card to show corresponding article
@@ -52,7 +52,7 @@ function populate_link_button(link_object, parent_element) {
     button.appendChild(image);
     if (link_object.date) {
         p_date = document.createElement('p');
-        p_date.textContent = link_object.title;
+        p_date.textContent = link_object.date;
         button.appendChild(p_date);
     }
     parent_element.appendChild(link);
@@ -102,7 +102,7 @@ function load_page(state) {
         default:
             for (let b of blog_data) {
                 let column = document.createElement('div');
-                column.classList.add('col-md-4');
+                column.setAttribute('class','col-md-4 mb-4');
                 parent_row.appendChild(column);
                 populate_blog(b, column);
             }
