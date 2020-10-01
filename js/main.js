@@ -7,24 +7,26 @@ function populate_blog(blog_object, parent_element) {
     // create a card to click on with all the necessary elements and classes
     let card = document.createElement('div');
     card.classList.add('card');
+    let card_body = document.createElement('div');
+    card_body.classList.add('card-body');
     let image = document.createElement('img');
-    image.setAttribute('src','img/clock.png');
+    image.classList.add('card-img-top');
+    image.setAttribute('src',blog_object.img_src);
     image.setAttribute('alt',blog_object.img_alt);
-    card.appendChild(image);
+    card_body.appendChild(image);
+    let card_date = document.createElement('h5');
+    card_date.classList.add('card-title');
+    card_date.textContent = blog_object.date;
+    card_body.appendChild(card_date);
+    let card_title = document.createElement('p');
+    card_title.classList.add('card-text');
+    card_title.textContent = blog_object.title;
+    card_body.appendChild(card_title);
+    card.appendChild(card_body);
     // run populate_article(content, what's the parent??? parent_row?)
     // append everything to everything
     // add event listener to blog buttons to change next sibling's class upon click
     parent_element.appendChild(card);
-
-/* <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div> */
-
 }
 
 function populate_link_button(link_object, parent_element) {
