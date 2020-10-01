@@ -3,7 +3,7 @@ const projects_data = [
         "href": "https://rlmead.github.io/async-weather-app/",
         "title": "weather oracle",
         "date": "09/2020",
-        "img_src": "./img/countdown.png",
+        "img_src": "./img/weather.png",
         "img_alt": "weather oracle screenshot"
     },
     {
