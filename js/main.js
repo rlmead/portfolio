@@ -24,13 +24,15 @@ function populate_blog(blog_object, parent_element) {
     card_body.appendChild(card_title);
     card.appendChild(card_body);
     parent_element.appendChild(card);
-    // create article element
+    // create hidden article element
     let article_column = document.createElement('div');
-    article_column.setAttribute('class','col-md-8');
+    article_column.setAttribute('class', 'col-md-8 hidden');
     populate_article(blog_object.content, article_column);
     parent_row.appendChild(article_column);
-    // append everything to everything
-    // add event listener to blog buttons to change next sibling's class upon click
+    // add event listener to blog card to show corresponding article
+    card.addEventListener('click', function() {
+        article_column.classList.toggle('hidden');
+    });
 }
 
 function populate_link_button(link_object, parent_element) {
@@ -100,7 +102,7 @@ function load_page(state) {
         default:
             for (let b of blog_data) {
                 let column = document.createElement('div');
-                column.setAttribute('class','col-md-4');
+                column.classList.add('col-md-4');
                 parent_row.appendChild(column);
                 populate_blog(b, column);
             }

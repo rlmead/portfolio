@@ -51,3 +51,7 @@ article {
     padding: 18px;
     background-image: url('../img/graph.png');
 }
+
+.hidden {
+    display: none;
+}
