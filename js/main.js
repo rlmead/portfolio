@@ -52,7 +52,7 @@ function populate_link_button(link_object, parent_element) {
     button.appendChild(image);
     if (link_object.date) {
         p_date = document.createElement('p');
-        p_date.textContent = link_object.title;
+        p_date.textContent = link_object.date;
         button.appendChild(p_date);
     }
     parent_element.appendChild(link);
