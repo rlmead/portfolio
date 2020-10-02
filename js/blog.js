@@ -1,5 +1,14 @@
 const blog_data = [
     {
+        "date": "10/02/20",
+        "title": "bootstrap",
+        "img_src": "https://images.unsplash.com/photo-1529587137368-dec9bab48c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        "img_alt": "architectural form with grid pattern",
+        "content": [
+            "work in progress"
+        ]
+    },
+    {
         "date": "09/25/20",
         "title": "full-time!",
         "img_src": "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",

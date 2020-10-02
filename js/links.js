@@ -1,22 +1,18 @@
 const links_data = [
     {
         "href": "https://github.com/rlmead",
-        "img_src": "img/github.png",
-        "img_alt": "github logo"
+        "icon": "fab fa-github"
     },
     {
         "href": "https://www.linkedin.com/in/rebecca-mead-4142621a3/",
-        "img_src": "img/linkedin.png",
-        "img_alt": "linked in logo"
+        "icon": "fab fa-linkedin-in"
     },
     {
         "href": "https://www.instagram.com/beckylee620/",
-        "img_src": "img/instagram.png",
-        "img_alt": "instagram logo"
+        "icon": "fab fa-instagram"
     },
     {
         "href": "https://www.ravelry.com/people/beckylee620",
-        "img_src": "img/ravelry.png",
-        "img_alt": "ravelry logo"
+        "icon": "fab fa-ravelry"
     }
 ]
