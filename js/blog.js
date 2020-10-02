@@ -5,7 +5,14 @@ const blog_data = [
         "img_src": "https://images.unsplash.com/photo-1529587137368-dec9bab48c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
         "img_alt": "architectural form with grid pattern",
         "content": [
-            "work in progress"
+            "i feel like i really got into the swing of things this week! i'm settling into this new routine pretty well, now that i know what to expect from day to day. and it feels great to have so much support from my classmates and instructors.",
+            "this week we did the weather app project. for this project, i pseudocoded thoroughly before coding, and really tried to think through each problem instead of just hacking away to see what works. i'm still learning, so i'm sure there are lots of improvements that could be made to my code, but the coding felt pretty easy after the careful planning i did. i'm really looking forward to refining this approach with future projects as i hone my web development skills.",
+            "i also refactored this website in two ways this week:",
+            [
+                "i reworked the layout using Bootstrap, which i hadn't used before.",
+                "i wrote Javascript code to dynamically load the website's content from data stored in JSON objects."
+            ],
+            "for this project, i took a much less structured approach, and just started working from the existing code. this was pretty hard, given the scale of the change involved in this refactor. next time i have to do a refactor of this scale, i will probably start from scratch instead, and then paste content in after the structure has been developed."
         ]
     },
     {
@@ -51,7 +58,7 @@ const blog_data = [
         "img_src": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1149&q=80",
         "img_alt": "colorful layer cake",
         "content": [
-            "this week we learned more about html and css, then added javascript to complete the beautiful layer cake of programming languages that we'll use for front-end development. i know i still have <em>a lot</em> to learn about all three, but i'm already excited about what i've been able to do with my blog!",
+            "this week we learned more about html and css, then added Javascript to complete the beautiful layer cake of programming languages that we'll use for front-end development. i know i still have <em>a lot</em> to learn about all three, but i'm already excited about what i've been able to do with my blog!",
             "this week's updates include:",
             [
                 "css code cleanup",
