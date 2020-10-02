@@ -7,6 +7,7 @@ function populate_blog(blog_object, parent_element) {
     // create a card to click on with all the necessary elements and classes
     let card = document.createElement('div');
     card.classList.add('card');
+    card.setAttribute('style', 'cursor: pointer;');
     let card_body = document.createElement('div');
     card_body.classList.add('card-body');
     let image = document.createElement('img');
