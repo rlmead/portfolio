@@ -38,11 +38,6 @@ button {
     border-radius: 8px;
 }
 
-button img {
-    height: 150px;
-    width: auto;
-}
-
 article {
     padding: 18px;
     background-image: url('../img/graph.png');

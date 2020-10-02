@@ -40,21 +40,28 @@ function populate_link_button(link_object, parent_element) {
     link.setAttribute('href',link_object.href);
     link.setAttribute('target','_blank');
     let button = document.createElement('button');
-    link.appendChild(button);
     if (link_object.title) {
         p_title = document.createElement('p');
         p_title.textContent = link_object.title;
         button.appendChild(p_title);
     }
-    let image = document.createElement('img');
-    image.setAttribute('src',link_object.img_src);
-    image.setAttribute('alt',link_object.img_alt);
-    button.appendChild(image);
+    if (link_object.img_src && link_object.img_alt) {
+        let image = document.createElement('img');
+        image.setAttribute('src',link_object.img_src);
+        image.setAttribute('alt',link_object.img_alt);
+        image.classList.add('img-fluid');
+        button.appendChild(image);
+    } else if (link_object.icon) {
+        let icon = document.createElement('i');
+        icon.setAttribute('class', 'fa-5x ' + link_object.icon);
+        button.appendChild(icon);
+    }
     if (link_object.date) {
         p_date = document.createElement('p');
         p_date.textContent = link_object.date;
         button.appendChild(p_date);
     }
+    link.appendChild(button);
     parent_element.appendChild(link);
 }
 
@@ -88,12 +95,18 @@ function load_page(state) {
     switch (state) {
         case 'projects':
             for (let p of projects_data) {
-                populate_link_button(p, parent_row);
+                let column = document.createElement('div');
+                column.setAttribute('class','col-sm-3');
+                parent_row.appendChild(column);
+                populate_link_button(p, column);
             }
             break;
         case 'links':
             for (let l of links_data) {
-                populate_link_button(l, parent_row);
+                let column = document.createElement('div');
+                column.setAttribute('class','col-sm-3');
+                parent_row.appendChild(column);
+                populate_link_button(l, column);
             }
             break;
         case 'about':
