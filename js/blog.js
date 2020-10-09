@@ -1,5 +1,17 @@
 const blog_data = [
     {
+        "date": "10/09/20",
+        "title": "OOP",
+        "img_src": "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",
+        "img_alt": "calculator",
+        "content": [
+            "this week we began shifting our approach from functional programming to object-oriented programming. i haven't wrapped my head around this yet, but... i'll get there!",
+            "we also started working within the model/view/controller paradigm. this method makes a lot of sense to me, and i look forward to applying it in upcoming projects.",
+            "i'm feeling really good about my javascript abilities. as always, there's so much more to learn, but the puzzle pieces keep coming together and i can really feel myself growing.",
+            "i can't believe that it's already time to start thinking ahead to final projects. the course is flying by! i've dreamed of building a platform that enables creative collaboration, allowing people to post their creative dreams and find the collaborators that they'd need to make that happen. gotta figure out if a project like that falls within the scope of this program :)"
+        ]
+    },
+    {
         "date": "10/02/20",
         "title": "bootstrap",
         "img_src": "https://images.unsplash.com/photo-1529587137368-dec9bab48c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
