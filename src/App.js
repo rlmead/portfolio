@@ -15,12 +15,18 @@ class App extends React.Component {
         this.pages = ['blog', 'projects', 'links', 'about'];
         this.state = {
             currentPage: 0,
-        }
+        };
+        this.setPage = this.setPage.bind(this);
+    }
+
+    // function to change page on navbar button clicks
+    setPage(pageNum) {
+        this.setState({ currentPage: pageNum })
     }
 
     render() {
         return (
-            <Header pages={this.pages} />
+            <Header pages={this.pages} currentPage={this.state.currentPage} setPage={this.setPage}/>
         // main:
         //    <div class=container>
         //      <div id='parent_row' class='row'>

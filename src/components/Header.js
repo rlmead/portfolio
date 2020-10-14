@@ -5,8 +5,7 @@ function Header(props) {
     return (
         <>
             <h1>also / and</h1>
-            <h2>{props.pages[0]}</h2>
-            <NavBar />
+            <NavBar pages={props.pages} currentPage={props.currentPage} setPage={props.setPage}/>
         </>
     );
 }

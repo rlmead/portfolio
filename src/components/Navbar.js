@@ -1,9 +1,28 @@
 import React from 'react';
 
-function NavBar() {
+function NavBar(props) {
     return (
-        <h2>we have a NavBar!</h2>
-        // generate and style buttons dynamically by iterating through this.state.pages
+        <nav className='navbar navbar-expand navbar-light bg-light mb-3'>
+            <div className='mx-auto'>
+                <div className='collapse navbar-collapse' id='navbarNav'>
+                    <ul className='navbar-nav'>
+                    {
+                        // generate buttons dynamically using props.pages
+                        props.pages.map((item, index) => {
+                            return (
+                                <li
+                                    className={'nav-item' + ((props.currentPage === index) ? ' active' : '')}
+                                    onClick={() => props.setPage(index)}
+                                >
+                                    {item}
+                                </li>
+                            )
+                        })
+                    }
+                    </ul>
+                </div>
+            </div>
+        </nav>
     );
 }
 
