@@ -1,10 +1,26 @@
 import React from 'react';
 import Article from './Article.js'
 
-class BlogPost extends React.Component {
+class BlogPost(data) extends React.Component {
     render() {
         return (
-            <div>we have a blog post!</div>
+            <> // React.Fragment 
+                <div> // class = col-md-4 mb-4
+                {/* 
+                    div
+                        class = card
+                        click eventListener article_column.classList.toggle('hidden')
+                        style - cursor: pointer
+
+                        div
+                            class = card-body
+
+                            img
+
+                */}
+                </div>
+                <Article /> // class = col-md-8 hidden mb-4
+            </> // React.Fragment 
         );
     }
 }

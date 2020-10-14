@@ -1,11 +1,17 @@
 import React from 'react';
 
-class Article extends React.Component {
-    render() {
-        return (
-            <article>we have an article!</article>
-        );
-    }
+function Article(props) {
+    return (
+        < article >
+            {/* 
+                for p in article_array
+                    if p === string
+                        <p>
+                    else if p ==- array
+                        <ul>
+                */}
+        </article >
+    );
 }
 
 export default Article;

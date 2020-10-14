@@ -1,6 +1,6 @@
 import React from 'react';
 
-class LinkButton extends React.Component {
+class LinkButton(data) extends React.Component {
     render() {
         return (
             <button>we have a link button!</button>

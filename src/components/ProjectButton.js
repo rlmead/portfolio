@@ -1,6 +1,6 @@
 import React from 'react';
 
-class ProjectButton extends React.Component {
+class ProjectButton(data) extends React.Component {
     render() {
         return (
             <button>we have a project button!</button>
