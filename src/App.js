@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Header from './components/Header.js'
 import BlogPost from './components/BlogPost.js'
 import ProjectButton from './components/ProjectButton.js'
