@@ -14,7 +14,7 @@ function NavBar(props) {
                                     className={'nav-item' + ((props.currentPage === index) ? ' active' : '')}
                                     onClick={() => props.setPage(index)}
                                 >
-                                    {item}
+                                    {item.page}
                                 </li>
                             )
                         })
