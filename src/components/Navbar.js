@@ -13,6 +13,7 @@ function NavBar(props) {
                                 <li
                                     className={'nav-item' + ((props.currentPage === index) ? ' active' : '')}
                                     onClick={() => props.setPage(index)}
+                                    key={index}
                                 >
                                     {item.page}
                                 </li>

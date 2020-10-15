@@ -35,14 +35,29 @@ class App extends React.Component {
             }
         ];
         this.state = {
-            currentPage: 0,
+            currentPage: 0
         };
         this.setPage = this.setPage.bind(this);
     }
 
     // function to change page on navbar button clicks
     setPage(pageNum) {
-        this.setState({ currentPage: pageNum })
+        this.setState({currentPage: pageNum})
+    }
+
+    // add check to stay on same page when refreshed
+    componentDidMount() {
+        let storedPage = window.localStorage.getItem('currentPage')
+        if (storedPage) {
+            this.setState({ currentPage: JSON.parse(storedPage) })
+        } else {
+            window.localStorage.setItem('currentPage', JSON.stringify(this.state.currentPage))
+        }
+    }
+
+    // keep localStorage up to date with this.state.currentPage
+    componentDidUpdate() {
+        window.localStorage.setItem('currentPage', JSON.stringify(this.state.currentPage))
     }
 
     render() {
