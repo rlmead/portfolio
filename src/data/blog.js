@@ -1,11 +1,23 @@
 const blog_data = [
     {
+        "date": "10/16/20",
+        "title": "react",
+        "img_src": "https://images.unsplash.com/photo-1560017487-c44f80136c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",
+        "img_alt": "looking up inside a colorful hot air balloon",
+        "content": [
+            "this week we started learning React! this is the first time i'm using a javascript library, and i like it. i wasn't expecting it to be a programming language creole - so far it seems really usable and functional. i that using React is helping me understand classes better.",
+            "i pushed myself harder than usual this week, after moving slower than i'd wanted to last week. for this reason i made decent progress on this week's two projects: the to-do list and the React blog refactor.",
+            "i was especially excited about the to-do list project, because it's related to something i've been wanting to create: a little app that lets you set aside unhelpful thoughts that are distracting you. i'm going to get this project to a state where it meets all the to-do list criteria, but after that i may make some changes to turn it into something more like a to-don't list :)",
+            "i have a bit more work to do on my blog refactor. i think that now that i've gotten some React practice with the to-do list, it'll go pretty smoothly. also, the fact that i've already put my blog data into JSON structures should help - i hope!"
+        ]
+    },
+    {
         "date": "10/09/20",
         "title": "OOP",
         "img_src": "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",
         "img_alt": "calculator",
         "content": [
-            "this week we began shifting our approach from functional programming to object-oriented programming. i haven't wrapped my head around this yet, but... i'll get there!",
+            "this week we began shifting our approach from functional programming to object-oriented programming. i haven't wrapped my head around this yet, but... i'll get there! i lost my footing a bit with the calculator project, so i'm hoping to have a chance to revisit that in the future.",
             "we also started working within the model/view/controller paradigm. this method makes a lot of sense to me, and i look forward to applying it in upcoming projects.",
             "i'm feeling really good about my javascript abilities. as always, there's so much more to learn, but the puzzle pieces keep coming together and i can really feel myself growing.",
             "i can't believe that it's already time to start thinking ahead to final projects. the course is flying by! i've dreamed of building a platform that enables creative collaboration, allowing people to post their creative dreams and find the collaborators that they'd need to make that happen. gotta figure out if a project like that falls within the scope of this program :)"

@@ -1,5 +1,12 @@
 const projects_data = [
     {
+        "href": "https://rlmead.github.io/tic-tac-toe/",
+        "title": "tic tac toe",
+        "date": "10/2020",
+        "img_src": "./img/tic-tac-toe.png",
+        "img_alt": "tic-tac-toe screenshot"        
+    },
+    {
         "href": "https://rlmead.github.io/async-weather-app/",
         "title": "weather oracle",
         "date": "10/2020",
