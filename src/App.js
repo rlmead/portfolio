@@ -14,24 +14,24 @@ class App extends React.Component {
         super();
         this.pages = [
             {
-                page: 'blog',
-                component: BlogPost,
-                data: blogData
+                'page': 'blog',
+                'component': BlogPost,
+                'data': blogData
             },
             {
-                page: 'projects',
-                component: ProjectButton,
-                data: projectsData
+                'page': 'projects',
+                'component': ProjectButton,
+                'data': projectsData
             },
             {  
-                page: 'links',
-                component: LinkButton,
-                data: linksData
+                'page': 'links',
+                'component': LinkButton,
+                'data': linksData
             },
             {
-                page: 'about',
-                component: Article,
-                data: aboutData
+                'page': 'about',
+                'component': Article,
+                'data': aboutData
             }
         ];
         this.state = {
@@ -64,7 +64,11 @@ class App extends React.Component {
         return (
             <>
                 {/* header with navbar which updates page state */}
-                <Header pages={this.pages} currentPage={this.state.currentPage} setPage={this.setPage} />
+                <Header
+                pages={this.pages}
+                currentPage={this.state.currentPage}
+                setPage={this.setPage}
+                />
                 <div className='container'>
                     <div id='parent_row' className='row'>
 
