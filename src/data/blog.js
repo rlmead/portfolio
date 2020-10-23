@@ -1,5 +1,17 @@
 const blogData = [
     {
+        "date": "10/23/20",
+        "title": "MOAR REACT",
+        "img_src": "https://images.unsplash.com/photo-1583737178049-ddd70ab51f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1970&q=80",
+        "img_alt": "black and white picture of a world war 2 airplane factory in england",
+        'content': [
+            "i really enjoyed this week's projects: the to-do list (or in my case, to-don't) and the React restaurant web app. by the time i moved on to the restaurant project, i was really starting to understand the basics of React, so that project went pretty smoothly for me. i used Reactstrap for that project too, and loved it.",
+            "i'm finding React super powerful. i'm really glad we no longer need to write our own Javascript function to dynamically create HTML elements! it's rough to imagine writing the to-do list project without a framework, especially given all the bootstrap elements that i used for it. any project that requires a lot of HTML elements - especially elements that share features, like the menu items on the restaurant project - would be a huge pain without dynamic rendering.",
+            "we also started using firebase this week. i've been using the command line for years, so the concept of a CLI isn't new or scary to me - i find the command line really powerful and fun to use. while i've never built a true CLI, i have built a family of Python and Shell scripts around a PostgreSQL database, using Git and Data Version Control. my scripts dynamically accessed a huge collection of speech audio data and all its associated metadata to run version-controlled machine learning experiments. there is currently no out-of-the-box solution for this - so maybe, if i were to build my own CLI, it would be something along these lines :)",
+            "i'm ending this week feeling really good about my progress - today i told my partner that i think i now feel comfortable saying that i know how to make web apps. i feel apprehensive about next week's projects, but i'm hoping to find more chances to learn collaboratively with my classmates."
+        ]
+    },
+    {
         "date": "10/16/20",
         "title": "react",
         "img_src": "https://images.unsplash.com/photo-1560017487-c44f80136c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",

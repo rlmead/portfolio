@@ -55,6 +55,7 @@ class App extends React.Component {
         let postIndex = stateUpdates.findIndex(item => item.date === postDate);
         stateUpdates[postIndex].display = !stateUpdates[postIndex].display;
         this.setState({ blogPosts: stateUpdates });
+        console.log(this.state.blogPosts);
     }
 
     // function to change page on navbar button clicks
