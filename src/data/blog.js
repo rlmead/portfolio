@@ -1,4 +1,4 @@
-const blog_data = [
+const blogData = [
     {
         "date": "10/16/20",
         "title": "react",
@@ -129,3 +129,5 @@ const blog_data = [
         ]
     }
 ]
+
+export default blogData;

@@ -3,8 +3,12 @@ import Article from './Article.js'
 
 function BlogPost(props) {
     return (
-        <> // React.Fragment 
-            <div> // class = col-md-4 mb-4
+        <>
+            <div
+                className='card col-md-4'
+                onClick={props.toggleDisplay}
+            >
+                {props.data.title}
                 {/* 
                     div
                         class = card
@@ -13,13 +17,12 @@ function BlogPost(props) {
 
                         div
                             class = card-body
-
                             img
 
                 */}
             </div>
             {/* <Article /> // class = col-md-8 hidden mb-4 */}
-        </> // React.Fragment 
+        </>
     );
 }
 

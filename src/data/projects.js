@@ -1,4 +1,4 @@
-const projects_data = [
+const projectsData = [
     {
         "href": "https://rlmead.github.io/tic-tac-toe/",
         "title": "tic tac toe",
@@ -35,3 +35,5 @@ const projects_data = [
         "img_alt": "pseudocode screenshot"
     }
 ]
+
+export default projectsData;

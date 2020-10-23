@@ -4,10 +4,10 @@ import BlogPost from './components/BlogPost.js'
 import ProjectButton from './components/ProjectButton.js'
 import LinkButton from './components/LinkButton.js'
 import Article from './components/Article.js'
-import { blogData } from './data/blog.js'
-import { projectsData } from './data/projects.js'
-import { linksData } from './data/links.js'
-import { aboutData } from './data/about.js'
+import blogData from './data/blog.js'
+import projectsData from './data/projects.js'
+import linksData from './data/links.js'
+import aboutData from './data/about.js'
 
 class App extends React.Component {
     constructor() {
@@ -23,7 +23,7 @@ class App extends React.Component {
                 'component': ProjectButton,
                 'data': projectsData
             },
-            {  
+            {
                 'page': 'links',
                 'component': LinkButton,
                 'data': linksData
@@ -32,17 +32,32 @@ class App extends React.Component {
                 'page': 'about',
                 'component': Article,
                 'data': aboutData
-            }
+            },
         ];
         this.state = {
-            currentPage: 0
+            currentPage: 0,
+            blogPosts: [],
         };
         this.setPage = this.setPage.bind(this);
+        this.toggleDisplay = this.toggleDisplay.bind(this);
+    }
+
+    // function to toggle display for collapsing blog posts
+    // this.state.blogPosts data structure:
+    // [
+    //   {
+    //      'date': '10/23/20',
+    //      'display': true,
+    //   },
+    // ]
+    toggleDisplay(postDate) {
+        let blogData = this.state.blogPosts;
+        // newFood.map(item => item.main).indexOf(main) === -1
     }
 
     // function to change page on navbar button clicks
     setPage(pageNum) {
-        this.setState({currentPage: pageNum})
+        this.setState({ currentPage: pageNum })
     }
 
     // add check to stay on same page when refreshed
@@ -63,37 +78,43 @@ class App extends React.Component {
     render() {
         return (
             <>
-                {/* header with navbar which updates page state */}
+                {/* page header with navbar which updates page state */}
                 <Header
-                pages={this.pages}
-                currentPage={this.state.currentPage}
-                setPage={this.setPage}
+                    pages={this.pages}
+                    currentPage={this.state.currentPage}
+                    setPage={this.setPage}
                 />
+                {/* page body */}
                 <div className='container'>
                     <div id='parent_row' className='row'>
-
+                        {
+                            blogData.map((item, index) => {
+                                return (
+                                    <BlogPost
+                                        data={item}
+                                        key={index}
+                                        toggleDisplay={this.toggleDisplay}
+                                    />
+                                )
+                            })
+                        }
+                        {/* {
+                            switch (this.pages[this.state.currentPage]) {
+                                    case projects:
+                                        for each object in projects.js:
+                                            <ProjectButton {object} />
+                                    case links:
+                                        for each object in links.js:
+                                            <LinkButton {object} />
+                                    case about:
+                                        <Article {about.js} />
+                                default:
+                                    <BlogPost />
+                        }
+                 } */}
                     </div>
                 </div>
             </>
-
-
-            // main:
-            //    <div class=container>
-            //      <div id='parent_row' class='row'>
-            //         switch (this.pages[this.state.currentPage])
-            //          case blog:
-            //             for each object in blog.js:
-            //               <BlogPost {object} />
-            //          case projects:
-            //             for each object in projects.js:
-            //                <ProjectButton {object} />
-            //          case links:
-            //             for each object in links.js:
-            //                <LinkButton {object} />
-            //          case about:
-            //                <Article {about.js} />
-            //      </div>
-            //    </div>
         )
     }
 }
