@@ -51,8 +51,10 @@ class App extends React.Component {
     //   },
     // ]
     toggleDisplay(postDate) {
-        let blogData = this.state.blogPosts;
-        // newFood.map(item => item.main).indexOf(main) === -1
+        let stateUpdates = this.state.blogPosts;
+        let postIndex = stateUpdates.findIndex(item => item.date === postDate);
+        stateUpdates[postIndex].display = !stateUpdates[postIndex].display;
+        this.setState({ blogPosts: stateUpdates });
     }
 
     // function to change page on navbar button clicks
