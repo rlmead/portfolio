@@ -1,4 +1,4 @@
-const links_data = [
+const linksData = [
     {
         "href": "https://github.com/rlmead",
         "icon": "fab fa-github"
@@ -16,3 +16,5 @@ const links_data = [
         "icon": "fab fa-ravelry"
     }
 ]
+
+export default linksData;

@@ -10,3 +10,5 @@ export const aboutData = [
         "social cooperation"
     ]
 ]
+
+export default aboutData;
