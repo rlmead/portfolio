@@ -81,7 +81,7 @@ class App extends React.Component {
             blogData.filter(item =>
                 (storedBlogPosts.map(stored => stored.date).indexOf(item.date) === -1))
             .map(item => ({date: item.date, display: false})))
-            .filter(stored => blogData.map(item => item.date).indexOf(stored.date != -1));
+            .filter(stored => (blogData.map(item => item.date).indexOf(stored.date) != -1));
         this.setState({ blogPosts: storedBlogPosts });
         window.localStorage.setItem('blogPosts', JSON.stringify(storedBlogPosts));
     }
