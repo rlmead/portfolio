@@ -54,8 +54,8 @@ class App extends React.Component {
         let stateUpdates = this.state.blogPosts;
         let postIndex = stateUpdates.findIndex(item => item.date === postDate);
         stateUpdates[postIndex].display = !stateUpdates[postIndex].display;
-        // this.setState({ blogPosts: stateUpdates });
-        // console.log(this.state.blogPosts);
+        this.setState({ blogPosts: stateUpdates });
+        console.log(this.state.blogPosts);
     }
 
     // function to change page on navbar button clicks
@@ -88,7 +88,8 @@ class App extends React.Component {
 
     // keep localStorage up to date with this.state.currentPage
     componentDidUpdate() {
-        window.localStorage.setItem('currentPage', JSON.stringify(this.state.currentPage))
+        window.localStorage.setItem('currentPage', JSON.stringify(this.state.currentPage));
+        window.localStorage.setItem('blogPosts', JSON.stringify(this.state.blogPosts));
     }
 
     render() {
