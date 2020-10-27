@@ -6,7 +6,7 @@ function BlogPost(props) {
         <>
             <div
                 className='card col-md-4'
-                // onClick={props.toggleDisplay}
+                onClick={() => props.toggleDisplay}
             >
                 {props.data.title}
                 {/* 

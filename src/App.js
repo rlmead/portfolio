@@ -54,8 +54,8 @@ class App extends React.Component {
         let stateUpdates = this.state.blogPosts;
         let postIndex = stateUpdates.findIndex(item => item.date === postDate);
         stateUpdates[postIndex].display = !stateUpdates[postIndex].display;
-        this.setState({ blogPosts: stateUpdates });
-        console.log(this.state.blogPosts);
+        // this.setState({ blogPosts: stateUpdates });
+        // console.log(this.state.blogPosts);
     }
 
     // function to change page on navbar button clicks
@@ -65,12 +65,25 @@ class App extends React.Component {
 
     // add check to stay on same page when refreshed
     componentDidMount() {
-        let storedPage = window.localStorage.getItem('currentPage')
+        let storedPage = window.localStorage.getItem('currentPage');
         if (storedPage) {
             this.setState({ currentPage: JSON.parse(storedPage) })
         } else {
             window.localStorage.setItem('currentPage', JSON.stringify(this.state.currentPage))
         }
+        let storedBlogPosts = window.localStorage.getItem('blogPosts');
+        if (storedBlogPosts) {
+            storedBlogPosts = JSON.parse(storedBlogPosts);
+        } else {
+            storedBlogPosts = [];
+        }
+        storedBlogPosts = storedBlogPosts.concat(
+            blogData.filter(item =>
+                (storedBlogPosts.map(stored => stored.date).indexOf(item.date) === -1))
+            .map(item => ({date: item.date, display: false})))
+            .filter(stored => blogData.map(item => item.date).indexOf(stored.date != -1));
+        this.setState({ blogPosts: storedBlogPosts });
+        window.localStorage.setItem('blogPosts', JSON.stringify(storedBlogPosts));
     }
 
     // keep localStorage up to date with this.state.currentPage
