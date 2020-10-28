@@ -56,7 +56,7 @@ function Blog(props) {
             key={'col-'+p}
             md='8'>
             <Article
-              data={props.data[p]}
+              data={props.data[p].content}
             />
           </Col>
         )

@@ -84,7 +84,9 @@ class App extends React.Component {
                 )
             case 'about':
                 return(
-                    <div>about</div>
+                    <Article
+                        data={aboutData}
+                    />
                 )
             default:
                 return (

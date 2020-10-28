@@ -3,7 +3,7 @@ import React from 'react';
 function Article(props) {
     let postContent = [];
     // add a paragraph for each item stored as a string
-    for (let p of props.data.content) {
+    for (let p of props.data) {
         if ((typeof p) === 'string') {
             postContent.push(
                 <p>{p}</p>
