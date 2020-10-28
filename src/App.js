@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header.js'
-import BlogPost from './components/BlogPost.js'
+import Blog from './components/Blog.js'
 import ProjectButton from './components/ProjectButton.js'
 import LinkButton from './components/LinkButton.js'
 import Article from './components/Article.js'
@@ -15,7 +15,7 @@ class App extends React.Component {
         this.pages = [
             {
                 'page': 'blog',
-                'component': BlogPost,
+                'component': Blog,
                 'data': blogData
             },
             {
@@ -107,7 +107,7 @@ class App extends React.Component {
                         {
                             blogData.map((item, index) => {
                                 return (
-                                    <BlogPost
+                                    <Blog
                                         data={item}
                                         key={index}
                                         toggleDisplay={this.toggleDisplay}

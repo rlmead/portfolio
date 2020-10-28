@@ -1,7 +1,9 @@
 import React from 'react';
 import Article from './Article.js'
 
-function BlogPost(props) {
+function Blog(props) {
+    let content = [];
+
     return (
         <>
             <div
@@ -26,4 +28,4 @@ function BlogPost(props) {
     );
 }
 
-export default BlogPost;
+export default Blog;
