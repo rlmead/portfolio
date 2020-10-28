@@ -25,16 +25,10 @@ class App extends React.Component {
         };
         this.setPage = this.setPage.bind(this);
         this.toggleDisplay = this.toggleDisplay.bind(this);
+        this.switchPage = this.switchPage.bind(this);
     }
 
-    // function to toggle display for collapsing blog posts
-    // this.state.blogState data structure:
-    // [
-    //   {
-    //      'date': '10/23/20',
-    //      'display': true,
-    //   },
-    // ]
+    // toggle display for collapsing blog posts
     toggleDisplay(postDate) {
         let stateUpdates = this.state.blogState;
         let postIndex = stateUpdates.findIndex(item => item.date === postDate);
@@ -42,12 +36,13 @@ class App extends React.Component {
         this.setState({ blogState: stateUpdates });
     }
 
-    // function to change page on navbar button clicks
+    // change page on navbar button clicks
     setPage(pageNum) {
         this.setState({ currentPage: pageNum })
     }
 
     // add check to stay on same page when refreshed
+    // and keep open blog posts open
     componentDidMount() {
         let storedPage = window.localStorage.getItem('currentPage');
         if (storedPage) {
@@ -76,6 +71,32 @@ class App extends React.Component {
         window.localStorage.setItem('blogState', JSON.stringify(this.state.blogState));
     }
 
+    // determine what to display based on the currentPage
+    switchPage(page) {
+        switch (page) {
+            case 'projects':
+                return (
+                    <div>projects</div>
+                )
+            case 'links':
+                return (
+                    <div>links</div>
+                )
+            case 'about':
+                return(
+                    <div>about</div>
+                )
+            default:
+                return (
+                    <Blog
+                        data={blogData}
+                        toggleDisplay={this.toggleDisplay}
+                        blogState={this.state.blogState}
+                    />
+                )
+        }
+    }
+
     render() {
         return (
             <>
@@ -87,11 +108,7 @@ class App extends React.Component {
                 />
                 {/* page body */}
                 <Container>
-                    <Blog
-                        data={blogData}
-                        toggleDisplay={this.toggleDisplay}
-                        blogState={this.state.blogState}
-                    />
+                    {this.switchPage(this.pages[this.state.currentPage])}
                 </Container>
             </>
         )
