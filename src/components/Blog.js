@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Column } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import Article from './Article.js'
 
 function Blog(props) {
@@ -21,8 +21,10 @@ function Blog(props) {
     }
     if (p != props.data.length) {
       rowArray.push(
-        <div
-          className='card col-md-4'
+        <Col
+          md='4'
+          key={p}
+          className='card'
           onClick={() => props.toggleDisplay(props.data[p].date)}
         >
           {props.data[p].title}
@@ -37,8 +39,13 @@ function Blog(props) {
                                     img
         
                         */}
-        </div>
+        </Col>
       )
+      if ((props.blogState[p] && props.blogState[p].display)) {
+        rowArray.push(
+          <Article/>
+        )
+      }
     }
   }
   return (
