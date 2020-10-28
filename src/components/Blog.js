@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Card, CardImg, CardTitle, CardText, CardBody } from 'reactstrap';
+import { Row, Col, Card, CardBody, CardImg, CardTitle, CardText } from 'reactstrap';
 import Article from './Article.js'
 
 function Blog(props) {
@@ -35,17 +35,6 @@ function Blog(props) {
               />
               <CardText>{props.data[p].date}</CardText>
               <CardTitle>{props.data[p].title}</CardTitle>
-              {/* 
-                            div
-                                class = card
-                                click eventListener article_column.classList.toggle('hidden')
-                                style - cursor: pointer
-        
-                                div
-                                    class = card-body
-                                    img
-        
-                        */}
             </CardBody>
           </Card>
         </Col>
