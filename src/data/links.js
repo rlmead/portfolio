@@ -1,19 +1,21 @@
+import { faGithub, faLinkedin, faInstagram, faRavelry } from '@fortawesome/free-brands-svg-icons'
+
 const linksData = [
     {
         "href": "https://github.com/rlmead",
-        "icon": "fab fa-github"
+        "icon": faGithub
     },
     {
         "href": "https://www.linkedin.com/in/rebecca-mead-4142621a3/",
-        "icon": "fab fa-linkedin-in"
+        "icon": faLinkedin
     },
     {
         "href": "https://www.instagram.com/beckylee620/",
-        "icon": "fab fa-instagram"
+        "icon": faInstagram
     },
     {
         "href": "https://www.ravelry.com/people/beckylee620",
-        "icon": "fab fa-ravelry"
+        "icon": faRavelry
     }
 ]
 
