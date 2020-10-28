@@ -37,14 +37,14 @@ class App extends React.Component {
         ];
         this.state = {
             currentPage: 0,
-            blogPosts: [],
+            blogState: [],
         };
         this.setPage = this.setPage.bind(this);
         this.toggleDisplay = this.toggleDisplay.bind(this);
     }
 
     // function to toggle display for collapsing blog posts
-    // this.state.blogPosts data structure:
+    // this.state.blogState data structure:
     // [
     //   {
     //      'date': '10/23/20',
@@ -52,11 +52,10 @@ class App extends React.Component {
     //   },
     // ]
     toggleDisplay(postDate) {
-        let stateUpdates = this.state.blogPosts;
+        let stateUpdates = this.state.blogState;
         let postIndex = stateUpdates.findIndex(item => item.date === postDate);
         stateUpdates[postIndex].display = !stateUpdates[postIndex].display;
-        this.setState({ blogPosts: stateUpdates });
-        console.log(this.state.blogPosts);
+        this.setState({ blogState: stateUpdates });
     }
 
     // function to change page on navbar button clicks
@@ -72,7 +71,7 @@ class App extends React.Component {
         } else {
             window.localStorage.setItem('currentPage', JSON.stringify(this.state.currentPage))
         }
-        let storedBlogPosts = window.localStorage.getItem('blogPosts');
+        let storedBlogPosts = window.localStorage.getItem('blogState');
         if (storedBlogPosts) {
             storedBlogPosts = JSON.parse(storedBlogPosts);
         } else {
@@ -83,14 +82,14 @@ class App extends React.Component {
                 (storedBlogPosts.map(stored => stored.date).indexOf(item.date) === -1))
                 .map(item => ({ date: item.date, display: false })))
             .filter(stored => (blogData.map(item => item.date).indexOf(stored.date) != -1));
-        this.setState({ blogPosts: storedBlogPosts });
-        window.localStorage.setItem('blogPosts', JSON.stringify(storedBlogPosts));
+        this.setState({ blogState: storedBlogPosts });
+        window.localStorage.setItem('blogState', JSON.stringify(storedBlogPosts));
     }
 
     // keep localStorage up to date with this.state.currentPage
     componentDidUpdate() {
         window.localStorage.setItem('currentPage', JSON.stringify(this.state.currentPage));
-        window.localStorage.setItem('blogPosts', JSON.stringify(this.state.blogPosts));
+        window.localStorage.setItem('blogState', JSON.stringify(this.state.blogState));
     }
 
     render() {
@@ -104,12 +103,12 @@ class App extends React.Component {
                 />
                 {/* page body */}
                 <Container>
-                    <Row>
-                        <Blog
-                            data={blogData}
-                            toggleDisplay={this.toggleDisplay}
-                        />
-                        {/* {
+                    <Blog
+                        data={blogData}
+                        toggleDisplay={this.toggleDisplay}
+                        blogState={this.state.blogState}
+                    />
+                    {/* {
                             switch (this.pages[this.state.currentPage]) {
                                     case projects:
                                         for each object in projects.js:
@@ -123,7 +122,6 @@ class App extends React.Component {
                                     <BlogPost />
                         }
                  } */}
-                    </Row>
                 </Container>
             </>
         )
