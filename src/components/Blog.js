@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Card, CardImg, CardTitle, CardText, CardBody } from 'reactstrap';
 import Article from './Article.js'
 
 function Blog(props) {
@@ -24,11 +24,18 @@ function Blog(props) {
         <Col
           md='4'
           key={p}
-          className='card'
-          onClick={() => props.toggleDisplay(props.data[p].date)}
         >
-          {props.data[p].title}
-          {/* 
+          <Card
+            className='mb-4'
+            onClick={() => props.toggleDisplay(props.data[p].date)}>
+            <CardBody>
+              <CardImg
+                src={props.data[p].img_src}
+                alt={props.data[p].img_alt}
+              />
+              <CardText>{props.data[p].date}</CardText>
+              <CardTitle>{props.data[p].title}</CardTitle>
+              {/* 
                             div
                                 class = card
                                 click eventListener article_column.classList.toggle('hidden')
@@ -39,11 +46,19 @@ function Blog(props) {
                                     img
         
                         */}
+            </CardBody>
+          </Card>
         </Col>
       )
       if ((props.blogState[p] && props.blogState[p].display)) {
         rowArray.push(
-          <Article/>
+          <Col
+            key={'col-'+p}
+            md='8'>
+            <Article
+              data={props.data[p]}
+            />
+          </Col>
         )
       }
     }

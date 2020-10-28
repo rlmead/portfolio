@@ -2,11 +2,6 @@ html,body {
   height:100vh;
 }
 
-body {
-  background-color: #8BAAAD;
-  font-family: 'Abel', sans-serif;
-}
-
 h1 {
   font-family: 'Homemade Apple', sans-serif;
   text-shadow: 4px 4px 4px #93B5C6;
@@ -34,6 +29,10 @@ button {
   padding: 20px;
   margin: 10px;
   border-radius: 8px;
+}
+
+.card:hover {
+  background-color: #DDDDED;
 }
 
 article {

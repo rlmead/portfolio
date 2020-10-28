@@ -3,7 +3,7 @@ import React from 'react';
 function Article(props) {
     return (
         < article >
-            'hello'
+            {props.data.content}
             {/* 
                 for p in article_array
                     if p === string
