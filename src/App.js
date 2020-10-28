@@ -14,26 +14,10 @@ class App extends React.Component {
     constructor() {
         super();
         this.pages = [
-            {
-                'page': 'blog',
-                'component': Blog,
-                'data': blogData
-            },
-            {
-                'page': 'projects',
-                'component': ProjectButton,
-                'data': projectsData
-            },
-            {
-                'page': 'links',
-                'component': LinkButton,
-                'data': linksData
-            },
-            {
-                'page': 'about',
-                'component': Article,
-                'data': aboutData
-            },
+            'blog',
+            'projects',
+            'links',
+            'about',
         ];
         this.state = {
             currentPage: 0,
@@ -108,20 +92,6 @@ class App extends React.Component {
                         toggleDisplay={this.toggleDisplay}
                         blogState={this.state.blogState}
                     />
-                    {/* {
-                            switch (this.pages[this.state.currentPage]) {
-                                    case projects:
-                                        for each object in projects.js:
-                                            <ProjectButton {object} />
-                                    case links:
-                                        for each object in links.js:
-                                            <LinkButton {object} />
-                                    case about:
-                                        <Article {about.js} />
-                                default:
-                                    <BlogPost />
-                        }
-                 } */}
                 </Container>
             </>
         )

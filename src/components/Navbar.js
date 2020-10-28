@@ -15,7 +15,7 @@ function NavBar(props) {
                                     onClick={() => props.setPage(index)}
                                     key={index}
                                 >
-                                    {item.page}
+                                    {item}
                                 </li>
                             )
                         })
