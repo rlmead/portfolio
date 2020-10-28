@@ -79,11 +79,22 @@ class App extends React.Component {
                     <div>projects</div>
                 )
             case 'links':
+                // return (
+                //     <LinkButton data={linksData[0]} />
+                // )
+                let linksContent = [];
+                for (let l = 0; l < linksData.length; l++) {
+                    linksContent.push(
+                        <LinkButton data={linksData[l]} key={l} />
+                    )
+                }
                 return (
-                    <div>links</div>
+                    <Row>
+                        {linksContent}
+                    </Row>
                 )
             case 'about':
-                return(
+                return (
                     <Article
                         data={aboutData}
                     />

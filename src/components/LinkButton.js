@@ -1,9 +1,19 @@
 import React from 'react';
+import { Col, Card, CardBody, CardTitle } from 'reactstrap';
 
 function LinkButton(props) {
     return (
-        <button>we have a link button!</button>
-    );
+        <Col
+            md='3'>
+            <Card>
+                <CardBody>
+                    <CardTitle>
+                        {props.data.icon}
+                    </CardTitle>
+                </CardBody>
+            </Card>
+        </Col>
+    )
 }
 
 export default LinkButton;
