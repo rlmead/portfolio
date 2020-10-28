@@ -8,6 +8,7 @@ import blogData from './data/blog.js'
 import projectsData from './data/projects.js'
 import linksData from './data/links.js'
 import aboutData from './data/about.js'
+import { Container, Row } from 'reactstrap';
 
 class App extends React.Component {
     constructor() {
@@ -80,7 +81,7 @@ class App extends React.Component {
         storedBlogPosts = storedBlogPosts.concat(
             blogData.filter(item =>
                 (storedBlogPosts.map(stored => stored.date).indexOf(item.date) === -1))
-            .map(item => ({date: item.date, display: false})))
+                .map(item => ({ date: item.date, display: false })))
             .filter(stored => (blogData.map(item => item.date).indexOf(stored.date) != -1));
         this.setState({ blogPosts: storedBlogPosts });
         window.localStorage.setItem('blogPosts', JSON.stringify(storedBlogPosts));
@@ -102,19 +103,12 @@ class App extends React.Component {
                     setPage={this.setPage}
                 />
                 {/* page body */}
-                <div className='container'>
-                    <div id='parent_row' className='row'>
-                        {
-                            blogData.map((item, index) => {
-                                return (
-                                    <Blog
-                                        data={item}
-                                        key={index}
-                                        toggleDisplay={this.toggleDisplay}
-                                    />
-                                )
-                            })
-                        }
+                <Container>
+                    <Row>
+                        <Blog
+                            data={blogData}
+                            toggleDisplay={this.toggleDisplay}
+                        />
                         {/* {
                             switch (this.pages[this.state.currentPage]) {
                                     case projects:
@@ -129,8 +123,8 @@ class App extends React.Component {
                                     <BlogPost />
                         }
                  } */}
-                    </div>
-                </div>
+                    </Row>
+                </Container>
             </>
         )
     }
