@@ -7,7 +7,7 @@ function LinkButton(props) {
     <Col
       md='3'>
       <Card className='mb-4'>
-        <a href={props.data.href} style={{color: 'black'}} target='_blank'>
+        <a href={props.data.href} style={{color: 'black', textDecoration: 'none'}} target='_blank' rel='noopener noreferrer'>
           <CardBody className='text-center'>
             <FontAwesomeIcon icon={props.data.icon} size='4x' />
           </CardBody>

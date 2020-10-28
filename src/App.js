@@ -14,10 +14,10 @@ class App extends React.Component {
     constructor() {
         super();
         this.pages = [
-            'blog',
             'projects',
-            'links',
             'about',
+            'links',
+            'blog',
         ];
         this.state = {
             currentPage: 0,
@@ -60,7 +60,7 @@ class App extends React.Component {
             blogData.filter(item =>
                 (storedBlogPosts.map(stored => stored.date).indexOf(item.date) === -1))
                 .map(item => ({ date: item.date, display: false })))
-            .filter(stored => (blogData.map(item => item.date).indexOf(stored.date) != -1));
+            .filter(stored => (blogData.map(item => item.date).indexOf(stored.date) !== -1));
         this.setState({ blogState: storedBlogPosts });
         window.localStorage.setItem('blogState', JSON.stringify(storedBlogPosts));
     }
@@ -74,14 +74,13 @@ class App extends React.Component {
     // determine what to display based on the currentPage
     switchPage(page) {
         switch (page) {
-            case 'projects':
+            case 'about':
                 return (
-                    <div>projects</div>
+                    <Article
+                        data={aboutData}
+                    />
                 )
             case 'links':
-                // return (
-                //     <LinkButton data={linksData[0]} />
-                // )
                 let linksContent = [];
                 for (let l = 0; l < linksData.length; l++) {
                     linksContent.push(
@@ -93,19 +92,23 @@ class App extends React.Component {
                         {linksContent}
                     </Row>
                 )
-            case 'about':
-                return (
-                    <Article
-                        data={aboutData}
-                    />
-                )
-            default:
+            case 'blog':
                 return (
                     <Blog
                         data={blogData}
                         toggleDisplay={this.toggleDisplay}
                         blogState={this.state.blogState}
                     />
+                )
+            default:
+                return (
+                    <Row>
+                        {
+                            projectsData.map((item, index) =>
+                                <ProjectButton data={item} key={index} />
+                            )
+                        }
+                    </Row>
                 )
         }
     }

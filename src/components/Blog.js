@@ -19,7 +19,8 @@ function Blog(props) {
         rowArray = [];
       }
     }
-    if (p != props.data.length) {
+    // add a new card to row array for each post
+    if (p !== props.data.length) {
       rowArray.push(
         <Col
           md='4'
