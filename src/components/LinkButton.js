@@ -1,9 +1,20 @@
 import React from 'react';
+import { Col, Card, CardBody } from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function LinkButton(props) {
-    return (
-        <button>we have a link button!</button>
-    );
+  return (
+    <Col
+      md='3'>
+      <Card className='mb-4'>
+        <a href={props.data.href} style={{color: 'black', textDecoration: 'none'}} target='_blank' rel='noopener noreferrer'>
+          <CardBody className='text-center'>
+            <FontAwesomeIcon icon={props.data.icon} size='4x' />
+          </CardBody>
+        </a>
+      </Card>
+    </Col>
+  )
 }
 
 export default LinkButton;

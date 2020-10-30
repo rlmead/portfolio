@@ -1,8 +1,20 @@
 const blogData = [
     {
+        "date": "10/23/20",
+        "title": "MOAR REACT",
+        "img_src": "https://images.unsplash.com/photo-1583737178049-ddd70ab51f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+        "img_alt": "black and white picture of a world war 2 airplane factory in england",
+        'content': [
+            "i really enjoyed this week's projects: the to-do list (or in my case, to-don't) and the React restaurant web app. by the time i moved on to the restaurant project, i was really starting to understand the basics of React, so that project went pretty smoothly for me. i used Reactstrap for that project too, and loved it.",
+            "i'm finding React super powerful. i'm really glad we no longer need to write our own Javascript function to dynamically create HTML elements! it's rough to imagine writing the to-do list project without a framework, especially given all the bootstrap elements that i used for it. any project that requires a lot of HTML elements - especially elements that share features, like the menu items on the restaurant project - would be a huge pain without dynamic rendering.",
+            "we also started using firebase this week. i've been using the command line for years, so the concept of a CLI isn't new or scary to me - i find the command line really powerful and fun to use. while i've never built a true CLI, i have built a family of Python and Shell scripts around a PostgreSQL database, using Git and Data Version Control. my scripts dynamically accessed a huge collection of speech audio data and all its associated metadata to run version-controlled machine learning experiments. there is currently no out-of-the-box solution for this - so maybe, if i were to build my own CLI, it would be something along these lines :)",
+            "i'm ending this week feeling really good about my progress - today i told my partner that i think i now feel comfortable saying that i know how to make web apps. i feel apprehensive about next week's projects, but i'm hoping to find more chances to learn collaboratively with my classmates."
+        ]
+    },
+    {
         "date": "10/16/20",
         "title": "react",
-        "img_src": "https://images.unsplash.com/photo-1560017487-c44f80136c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",
+        "img_src": "https://images.unsplash.com/photo-1560017487-c44f80136c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "looking up inside a colorful hot air balloon",
         "content": [
             "this week we started learning React! this is the first time i'm using a javascript library, and i like it. i wasn't expecting it to be a programming language creole - so far it seems really usable and functional. i that using React is helping me understand classes better.",
@@ -14,7 +26,7 @@ const blogData = [
     {
         "date": "10/09/20",
         "title": "OOP",
-        "img_src": "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80",
+        "img_src": "https://images.unsplash.com/photo-1587145820266-a5951ee6f620?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "calculator",
         "content": [
             "this week we began shifting our approach from functional programming to object-oriented programming. i haven't wrapped my head around this yet, but... i'll get there! i lost my footing a bit with the calculator project, so i'm hoping to have a chance to revisit that in the future.",
@@ -26,7 +38,7 @@ const blogData = [
     {
         "date": "10/02/20",
         "title": "bootstrap",
-        "img_src": "https://images.unsplash.com/photo-1529587137368-dec9bab48c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+        "img_src": "https://images.unsplash.com/photo-1529587137368-dec9bab48c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "architectural form with grid pattern",
         "content": [
             "i feel like i really got into the swing of things this week! i'm settling into this new routine pretty well, now that i know what to expect from day to day. and it feels great to have so much support from my classmates and instructors.",
@@ -42,7 +54,7 @@ const blogData = [
     {
         "date": "09/25/20",
         "title": "full-time!",
-        "img_src": "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+        "img_src": "https://images.unsplash.com/photo-1513128034602-7814ccaddd4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "hand resting on keyboard and open notebook",
         "content": [
             "we're full-time now!",
@@ -58,7 +70,7 @@ const blogData = [
     {
         "date": "09/18/20",
         "title": "MOAR JS",
-        "img_src": "https://images.unsplash.com/photo-1518709414768-a88981a4515d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+        "img_src": "https://images.unsplash.com/photo-1518709414768-a88981a4515d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "workbench with miscellaneous tools",
         "content": [
             "whoa, the pre-work phase is already over! it's been a lot of work learning how to use these new tools, and there's still a lot i haven't fully grasped.",
@@ -79,7 +91,7 @@ const blogData = [
     {
         "date": "09/11/20",
         "title": "javascript!",
-        "img_src": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1149&q=80",
+        "img_src": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "colorful layer cake",
         "content": [
             "this week we learned more about html and css, then added Javascript to complete the beautiful layer cake of programming languages that we'll use for front-end development. i know i still have <em>a lot</em> to learn about all three, but i'm already excited about what i've been able to do with my blog!",
@@ -100,7 +112,7 @@ const blogData = [
     {
         "date": "09/04/20",
         "title": "html & css",
-        "img_src": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=739&q=80",
+        "img_src": "https://images.unsplash.com/photo-1546776310-eef45dd6d63c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "robot",
         "content": [
             "this week we practiced some intense pseudocoding. i liked it! this exercise was hypothetical - we pseudocoded something we aren't actually going to build - so i took the opportunity to do something fun. i dreamed up a scifi bot (the ensweaterator) that searches for people who are cold, then knits sweaters directly onto their bodies.",
