@@ -1,10 +1,23 @@
 const blogData = [
     {
+        "date": "10/30/20",
+        "title": "the end of front end",
+        "img_src": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+        "img_alt": "on-paper mockups of web interfaces",
+        "content": [
+            "it's our last week of front end design!",
+            "i've enjoyed the evolution of our skills in this course, starting with the basics, then moving on to newer and more powerful tech. it's helpful to understand the underlying components of the newer tech, and why things have developed the way they have.",
+            "i'm looking forward to getting more practice with React. i still feel shaky passing data back and forth between components, and understanding lifecycle and the order things happen in.",
+            "at the start of this week i felt pretty stressed and overwhelmed, but by the end i'd made pretty good progress on all my projects. i think my biggest win was reworking this blog with React. i was also happy with my puzzle slider, which i managed to get working with images!",
+            "i didn't get to spend much time on the third project - the fishing shop website - but i still made a decent dent in it. its handling of customers' shipping information is buggy right now, but i'm hoping to fix that before too long.",
+        ]
+    },
+    {
         "date": "10/23/20",
         "title": "MOAR REACT",
         "img_src": "https://images.unsplash.com/photo-1583737178049-ddd70ab51f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "black and white picture of a world war 2 airplane factory in england",
-        'content': [
+        "content": [
             "i really enjoyed this week's projects: the to-do list (or in my case, to-don't) and the React restaurant web app. by the time i moved on to the restaurant project, i was really starting to understand the basics of React, so that project went pretty smoothly for me. i used Reactstrap for that project too, and loved it.",
             "i'm finding React super powerful. i'm really glad we no longer need to write our own Javascript function to dynamically create HTML elements! it's rough to imagine writing the to-do list project without a framework, especially given all the bootstrap elements that i used for it. any project that requires a lot of HTML elements - especially elements that share features, like the menu items on the restaurant project - would be a huge pain without dynamic rendering.",
             "we also started using firebase this week. i've been using the command line for years, so the concept of a CLI isn't new or scary to me - i find the command line really powerful and fun to use. while i've never built a true CLI, i have built a family of Python and Shell scripts around a PostgreSQL database, using Git and Data Version Control. my scripts dynamically accessed a huge collection of speech audio data and all its associated metadata to run version-controlled machine learning experiments. there is currently no out-of-the-box solution for this - so maybe, if i were to build my own CLI, it would be something along these lines :)",
@@ -13,7 +26,7 @@ const blogData = [
     },
     {
         "date": "10/16/20",
-        "title": "react",
+        "title": "React",
         "img_src": "https://images.unsplash.com/photo-1560017487-c44f80136c56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
         "img_alt": "looking up inside a colorful hot air balloon",
         "content": [

@@ -56,11 +56,12 @@ class App extends React.Component {
         } else {
             storedBlogPosts = [];
         }
-        storedBlogPosts = storedBlogPosts.concat(
+        storedBlogPosts =
             blogData.filter(item =>
                 (storedBlogPosts.map(stored => stored.date).indexOf(item.date) === -1))
-                .map(item => ({ date: item.date, display: false })))
-            .filter(stored => (blogData.map(item => item.date).indexOf(stored.date) !== -1));
+                .map(item => ({ date: item.date, display: false }))
+                .concat(storedBlogPosts)
+                .filter(stored => (blogData.map(item => item.date).indexOf(stored.date) !== -1));
         this.setState({ blogState: storedBlogPosts });
         window.localStorage.setItem('blogState', JSON.stringify(storedBlogPosts));
     }
