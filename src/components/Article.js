@@ -3,19 +3,19 @@ import React from 'react';
 function Article(props) {
     let postContent = [];
     // add a paragraph for each item stored as a string
-    for (let p of props.data) {
-        if ((typeof p) === 'string') {
+    for (let p = 0; p < props.data.length; p++) {
+        if ((typeof props.data[p]) === 'string') {
             postContent.push(
-                <p>{p}</p>
+                <p key={'str-'+p}>{props.data[p]}</p>
             )
-    // add a list for each item stored as an array (here detected as object)
-        } else if ((typeof p) === 'object') {
+            // add a list for each item stored as an array (here detected as object)
+        } else if ((typeof props.data[p]) === 'object') {
             postContent.push(
-                <ul>
+                <ul key={'ul-'+p}>
                     {
-                        p.map((i, n) => {
+                        props.data[p].map((i, n) => {
                             return (
-                                <li key={n}>{i}</li>
+                                <li key={'li-' + n}>{i}</li>
                             )
                         }
                         )

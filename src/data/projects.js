@@ -1,12 +1,21 @@
+import PuzzleSliderPic from '../img/puzzle-slider.png'
+import ToDontPic from '../img/todont.png'
+import BaitAndTacklePic from '../img/bait-and-tackle.png'
+import PseudoRandomPic from '../img/pseudorandom.png'
 import TicTacToePic from '../img/tic-tac-toe.png';
 import WeatherPic from '../img/weather.png';
 import CountdownTimerPic from '../img/countdown.png';
 import ClockPic from '../img/clock.png';
 import PseudocodePic from '../img/pseudocode.png';
-import ToDontPic from '../img/todont.png'
-import PseudoRandomPic from '../img/pseudorandom.png'
 
 const projectsData = [
+    {
+        "title": "puzzle slider",
+        "href": "https://puzzle-slider-b9d83.web.app/",
+        "date": "10/2020",
+        "img_src": PuzzleSliderPic,
+        "img_alt": "puzzle slider app"
+    },
     {
         "title": "to-don't list",
         "href": "https://to-dont-list.web.app",
@@ -15,11 +24,18 @@ const projectsData = [
         "img_alt": "to-don't list app"
     },
     {
+        "title": "bluegrass bait & tackle",
+        "href": "https://fishing-hooks-d180a.web.app/",
+        "date": "10/2020",
+        "img_src": BaitAndTacklePic,
+        "img_alt": "fishing supply store app"
+    },
+    {
         "title": "pseudo-random restaurant",
         "href": "https://pseudo-random-restaurant.web.app/",
         "date": "10/2020",
         "img_src": PseudoRandomPic,
-        "img_alt": "to-don't list app"
+        "img_alt": "restaurant menu app"
     },
     {
         "title": "tic tac toe",
