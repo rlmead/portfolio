@@ -7,38 +7,46 @@ import WeatherPic from '../img/weather.png';
 import CountdownTimerPic from '../img/countdown.png';
 import ClockPic from '../img/clock.png';
 import PseudocodePic from '../img/pseudocode.png';
+import SqlHeroesPic from '../img/sql-heroes.png';
 
 const projectsData = [
     {
-        "title": "puzzle slider",
+        "title": "superhero social media platform",
+        "href": "https://github.com/rlmead/sql-heroes",
+        "date": "11/2020",
+        "img_src": SqlHeroesPic,
+        "img_alt": "social media platform for superheroes"
+    },
+    {
+        "title": "puzzle slider game",
         "href": "https://puzzle-slider-b9d83.web.app/",
         "date": "10/2020",
         "img_src": PuzzleSliderPic,
         "img_alt": "puzzle slider app"
     },
     {
-        "title": "to-don't list",
+        "title": "to-don't list app",
         "href": "https://to-dont-list.web.app",
         "date": "10/2020",
         "img_src": ToDontPic,
         "img_alt": "to-don't list app"
     },
     {
-        "title": "bluegrass bait & tackle",
+        "title": "bluegrass bait & tackle shop",
         "href": "https://fishing-hooks-d180a.web.app/",
         "date": "10/2020",
         "img_src": BaitAndTacklePic,
         "img_alt": "fishing supply store app"
     },
     {
-        "title": "pseudo-random restaurant",
+        "title": "pseudo-random restaurant menu",
         "href": "https://pseudo-random-restaurant.web.app/",
         "date": "10/2020",
         "img_src": PseudoRandomPic,
         "img_alt": "restaurant menu app"
     },
     {
-        "title": "tic tac toe",
+        "title": "tic tac toe game",
         "href": "https://rlmead.github.io/tic-tac-toe/",
         "date": "10/2020",
         "img_src": TicTacToePic,
@@ -66,7 +74,7 @@ const projectsData = [
         "img_alt": "digital clock app"
     },
     {
-        "title": "pseudocode",
+        "title": "pseudocode exercise",
         "href": "https://github.com/rlmead/pseudocode/blob/master/pseudocode.md",
         "date": "09/2020",
         "img_src": PseudocodePic,

@@ -1,5 +1,17 @@
 const blogData = [
     {
+        "date": "11/06/20",
+        "title": "the start of back end",
+        "img_src": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
+        "img_alt": "a set of wooden card catalogue drawers",
+        "content": [
+            "this week we began back-end programming, working with a mysql database through php. i knew nothing about building an api before this week (and didn't fully understand what an api even was). as always, i still have lots to learn, but it's slowly becoming more clear.",
+            "for the sql heroes project this week, i designed a front end in react rather than doing everything through php, so i didn't get as much php experience as i might have. aside from some sandboxing i did when learning php at the start of the week, i know very little about controlling html output through php. even if we don't do much front-end work with php in the future, i'd like to get a bit more practice with it. i also want to get better at debugging php problems.",
+            "it felt pretty straightforward to learn php after learning javascript - there are lots of syntax similarities. on top of that, php has a bunch of built-in functions that i'd been wishing for in javascript, and i'm thrilled about that! for this reason i think it was nicer to learn javascript first - get lots of practice solving various problems with simple logic - and then move on to (what seems to be me to be) a more powerful language.",
+            "on to laravel now!"
+        ]
+    },
+    {
         "date": "10/30/20",
         "title": "the end of front end",
         "img_src": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
@@ -9,7 +21,7 @@ const blogData = [
             "i've enjoyed the evolution of our skills in this course, starting with the basics, then moving on to newer and more powerful tech. it's helpful to understand the underlying components of the newer tech, and why things have developed the way they have.",
             "i'm looking forward to getting more practice with React. i still feel shaky passing data back and forth between components, and understanding lifecycle and the order things happen in.",
             "at the start of this week i felt pretty stressed and overwhelmed, but by the end i'd made pretty good progress on all my projects. i think my biggest win was reworking this blog with React. i was also happy with my puzzle slider, which i managed to get working with images!",
-            "i didn't get to spend much time on the third project - the fishing shop website - but i still made a decent dent in it. its handling of customers' shipping information is buggy right now, but i'm hoping to fix that before too long.",
+            "i didn't get to spend much time on the third project - the fishing shop website - but i still made a decent dent in it. its handling of customers' shipping information is buggy right now, but i'm hoping to fix that before too long."
         ]
     },
     {
