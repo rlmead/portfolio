@@ -1,5 +1,24 @@
 const blogData = [
     {
+        "date": "11/13/20",
+        "title": "learning laravel",
+        "img_src": "https://images.unsplash.com/photo-1496104679561-38d3af73f9b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+        "img_alt": "a set of wooden card catalogue drawers",
+        "content": [
+            "this week was another intensive learning week: we started learning laravel, building a library's user/book tracking system for practice. laravel seems super powerful and organized, but it goes deep and my understanding feels pretty superficial right now. so i'm glad we'll get more practice with it in the coming weeks.",
+            "it blows my mind to consider how much i've learned over the past few months. i've enjoyed all the opportunities to play around with the tech stack and plug together various parts to see how they work together. i've also loved learning technical design principles, and learning standard approaches to common technical problems.",
+            "after we finish learning the full stack in the course, i hope to start applying the engineering principles we've been learning with different languages. i hope that i'll find it increasingly easy to hang new technologies on the scaffolding of understanding that i've built during this course.",
+            "as for the rest of our time in the course, i hope to really develop my approach to solving an engineering problem from start to finish. i want to be able to anticipate tough problems and think up elegant solutions before i even start coding. i want my design and execution process to become increasingly orderly, such that",
+            [
+                "i plan and pseudocode the project thoroughly before writing any code,",
+                "i approach all the steps in an order that makes sense,",
+                "every change in a given commit is part of the same feature or development,",
+                "everything that gets committed to my repo is cleaned-up, commented, and functional, and",
+                "any problems with my code are documented in issues rather than in comments."
+            ]
+        ]
+    },
+    {
         "date": "11/06/20",
         "title": "the start of back end",
         "img_src": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80",
