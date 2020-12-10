@@ -6,11 +6,11 @@ const linksData = [
         "icon": faGithub
     },
     {
-        "href": "https://www.linkedin.com/in/rebecca-mead-4142621a3/",
+        "href": "https://www.linkedin.com/in/rlmead",
         "icon": faLinkedin
     },
     {
-        "href": "https://www.instagram.com/beckylee620/",
+        "href": "https://www.instagram.com/beckylee620",
         "icon": faInstagram
     },
     {
