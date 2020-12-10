@@ -8,14 +8,22 @@ import CountdownTimerPic from '../img/countdown.png';
 import ClockPic from '../img/clock.png';
 import PseudocodePic from '../img/pseudocode.png';
 import SqlHeroesPic from '../img/sql-heroes.png';
+import IdeaNetworkPic from '../img/idea-network.png';
 
 const projectsData = [
+    {
+        "title": "idea network",
+        "href": "https://network-of-ideas.web.app",
+        "date": "12/2020",
+        "img_src": IdeaNetworkPic,
+        "img_alt": "social network for creative collaboration"
+    },
     {
         "title": "superhero social media platform",
         "href": "https://github.com/rlmead/sql-heroes",
         "date": "11/2020",
         "img_src": SqlHeroesPic,
-        "img_alt": "social media platform for superheroes"
+        "img_alt": "social media for superheroes"
     },
     {
         "title": "puzzle slider game",
