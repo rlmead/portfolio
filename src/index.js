@@ -4,6 +4,7 @@ import './index.css';
 import App from './App.js';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
+import "./theme_1607434693456.css";
 
 ReactDOM.render(
   <React.StrictMode>
