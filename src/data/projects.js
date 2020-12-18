@@ -1,11 +1,11 @@
-import PuzzleSliderPic from '../img/puzzle-slider.png'
-import ToDontPic from '../img/todont.png'
-import PseudoRandomPic from '../img/pseudorandom.png'
-import TicTacToePic from '../img/tic-tac-toe.png';
-import WeatherPic from '../img/weather.png';
-import ClockPic from '../img/clock.png';
-import SqlHeroesPic from '../img/sql-heroes.png';
-import IdeaNetworkPic from '../img/idea-network.png';
+import PuzzleSliderPic from "../img/puzzle-slider.png"
+import ToDontPic from "../img/todont.png"
+import PseudoRandomPic from "../img/pseudorandom.png"
+import TicTacToePic from "../img/tic-tac-toe.png";
+import WeatherPic from "../img/weather.png";
+import ClockPic from "../img/clock.png";
+import SqlHeroesPic from "../img/sql-heroes.png";
+import IdeaNetworkPic from "../img/idea-network.png";
 
 const projectsData = [
     {
@@ -30,11 +30,11 @@ const projectsData = [
         "img_alt": "puzzle slider app"
     },
     {
-        "title": "to-don't list app",
+        "title": "to-don"t list app",
         "href": "https://to-dont-list.web.app",
         "date": "10/2020",
         "img_src": ToDontPic,
-        "img_alt": "to-don't list app"
+        "img_alt": "to-don"t list app"
     },
     {
         "title": "pseudo-random restaurant menu",
