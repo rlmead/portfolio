@@ -30,11 +30,11 @@ const projectsData = [
         "img_alt": "puzzle slider app"
     },
     {
-        "title": "to-don"t list app",
+        "title": "to-don't list app",
         "href": "https://to-dont-list.web.app",
         "date": "10/2020",
         "img_src": ToDontPic,
-        "img_alt": "to-don"t list app"
+        "img_alt": "to-don't list app"
     },
     {
         "title": "pseudo-random restaurant menu",
