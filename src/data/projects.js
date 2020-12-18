@@ -3,7 +3,6 @@ import ToDontPic from '../img/todont.png'
 import PseudoRandomPic from '../img/pseudorandom.png'
 import TicTacToePic from '../img/tic-tac-toe.png';
 import WeatherPic from '../img/weather.png';
-import CountdownTimerPic from '../img/countdown.png';
 import ClockPic from '../img/clock.png';
 import SqlHeroesPic from '../img/sql-heroes.png';
 import IdeaNetworkPic from '../img/idea-network.png';
