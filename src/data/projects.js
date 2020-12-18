@@ -59,13 +59,6 @@ const projectsData = [
         "img_alt": "weather oracle app"
     },
     {
-        "title": "countdown timer",
-        "href": "https://rlmead.github.io/countdown-timer/",
-        "date": "09/2020",
-        "img_src": CountdownTimerPic,
-        "img_alt": "countdown timer app"
-    },
-    {
         "title": "digital clock",
         "href": "https://rlmead.github.io/digital-clock/",
         "date": "09/2020",
