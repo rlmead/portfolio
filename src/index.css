@@ -1,10 +1,5 @@
 nav li {
   padding: 10px;
-  cursor: pointer;
-}
-
-nav li:hover {
-  background-color: #DDEDAA;
 }
 
 article {
