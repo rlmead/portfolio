@@ -17,18 +17,22 @@ function Header() {
           style={{ fontSize: "2em", textShadow: "4px 4px 4px #93B5C6" }}>
           r. l. mead
         </h1>
-        <NavbarToggler onClick={toggle} />
+        <NavbarToggler
+          onClick={toggle} />
         <Collapse
           isOpen={isOpen}
-          navbar >
-          <Nav style={{ display: "flex", flexFlow: "row nowrap" }} className="ml-auto">
+          navbar>
+          <Nav
+            style={{ display: "flex", flexFlow: "row nowrap" }} className="ml-auto">
             {
               linksData.map((item, index) => {
                 return (
                   <NavItem
                     className="text-primary"
                     key={index}>
-                    <a href={item.href} target='_blank'>
+                    <a
+                      href={item.href}
+                      target='_blank'>
                       <FontAwesomeIcon icon={item.icon} />
                     </a>
                   </NavItem>
