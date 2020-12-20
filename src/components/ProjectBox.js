@@ -23,12 +23,21 @@ function ProjectBox(props) {
               src={props.data.img_src}
               alt={props.data.img_alt}
             />
-            <CardImgOverlay
-              className={"text-center bg-secondary rounded-0 " + (hidden && "d-none")}
-              style={{opacity: "0.85"}}>
-              <h2 className="text-primary bold">{props.data.title}</h2>
-              <h4 className="text-primary">{props.data.date}</h4>
-            </CardImgOverlay>
+            <div className={hidden && "d-none"}>
+              <CardImgOverlay
+                className="text-center bg-white rounded-0 d-flex"
+                style={{ opacity: "0.8", flexWrap: "wrap" }}>
+                <h2
+                  style={{ minWidth: "100%" }}
+                  className="align-self-center mx-auto text-primary">
+                  {props.data.title}
+                </h2>
+                <h4
+                  className="mx-auto text-primary">
+                  {props.data.date}
+                </h4>
+              </CardImgOverlay>
+            </div>
           </CardBody>
         </a>
       </Card>
