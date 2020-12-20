@@ -26,7 +26,7 @@ function ProjectBox(props) {
             <div className={hidden && "d-none"}>
               <CardImgOverlay
                 className="text-center bg-white rounded-0 d-flex"
-                style={{ opacity: "0.8", flexWrap: "wrap" }}>
+                style={{ opacity: "0.85", flexWrap: "wrap" }}>
                 <h2
                   style={{ minWidth: "100%" }}
                   className="align-self-center mx-auto text-primary">
