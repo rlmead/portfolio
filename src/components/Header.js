@@ -12,9 +12,9 @@ function Header() {
       <Navbar
         expand="md"
         light
-        className="navbar-default navbar-light sticky-top text-primary bg-white">
+        className="navbar-default navbar-light sticky-top text-primary bg-secondary">
         <h1
-          style={{ fontSize: "2em", textShadow: "4px 4px 4px #93B5C6" }}>
+          style={{ fontSize: "2em", textShadow: "4px 4px 4px #7BC9CC" }}>
           r. l. mead
         </h1>
         <NavbarToggler
