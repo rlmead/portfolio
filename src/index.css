@@ -1,71 +1,9 @@
-html,body {
-  height:100vh;
-}
-
-h1 {
-  font-family: 'Homemade Apple', sans-serif;
-  text-shadow: 4px 4px 4px #93B5C6;
-  text-align: center;
-}
-
-nav ul {
-  text-align: center;
-}
-
 nav li {
   padding: 10px;
-  cursor: pointer;
-}
-
-nav li:hover {
-  background-color: #DDEDAA;
-}
-
-nav .active {
-  background-color: #DDEDAA;
-}
-
-button {
-  cursor: pointer;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 8px;
-}
-
-.card {
-  cursor: pointer;
-}
-
-.card:hover {
-  background-color: #f4f4fc;
 }
 
 article {
   padding: 18px;
   background-image: url('./img/graph.png');
   border-radius: 8px;
-}
-
-.hidden {
-  display: none;
-}
-
-/* responsively size viewpoints carousel text for larger views (>800px) */
-@media screen and (min-width: 801px) {
-  h1 {
-      font-size: 4rem;
-  }
-  body {
-      font-size: 1.5rem;
-  }
-}
-
-/* responsively size viewpoints carousel text for smaller views (<=800px) */
-@media screen and (max-width: 800px) {
-  h1 {
-      font-size: 2rem;
-  }
-  body {
-      font-size: 0.75rem;
-  }
 }
