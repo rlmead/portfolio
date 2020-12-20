@@ -33,7 +33,7 @@ function Header() {
                     <a
                       href={item.href}
                       target='_blank'>
-                      <FontAwesomeIcon icon={item.icon} />
+                      <FontAwesomeIcon size="1.5x" icon={item.icon} />
                     </a>
                   </NavItem>
                 )
