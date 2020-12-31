@@ -27,7 +27,7 @@ function Header() {
           navbar>
           <Nav
             style={{ display: "flex", flexFlow: "row nowrap" }} className="ml-auto">
-            <NavItem>
+            <NavItem style={{ padding: "7px" }}>
               <FontAwesomeIcon
                 icon={faQuestion}
                 onClick={() => toggleModal()} />
@@ -36,6 +36,7 @@ function Header() {
               linksData.map((item, index) => {
                 return (
                   <NavItem
+                    style={{ padding: "7px" }}
                     key={index}>
                     <a
                       href={item.href}
