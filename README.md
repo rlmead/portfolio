@@ -1,2 +1,2 @@
-# Becky's Blog for Awesome Inc Bootcamp
-:bangbang:[now live on firebase](https://also-and.web.app/):bangbang:
+# R Mead's Portfolio
+:bangbang:[live on firebase](https://also-and.web.app/):bangbang:
