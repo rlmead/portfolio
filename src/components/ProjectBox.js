@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import { Col, Card, CardBody, CardImg, CardImgOverlay } from "reactstrap";
+import { Card, CardBody, CardImg, CardImgOverlay } from "reactstrap";
 
 function ProjectBox(props) {
   const [hidden, setHidden] = useState(true);
 
   return (
-    <Col
-      md="4">
       <Card
         className="border-0 mb-4"
         onMouseOver={() => setHidden(false)}
@@ -39,7 +37,6 @@ function ProjectBox(props) {
           </CardBody>
         </a>
       </Card>
-    </Col>
   );
 }
 
