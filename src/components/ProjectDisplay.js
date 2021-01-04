@@ -38,7 +38,7 @@ function ProjectDisplay() {
           style={{ position: "relative", top: "0", bottom: "auto" }}>
           <h3>{item.title}</h3>
           <p className="mb-0">{item.date}</p>
-          <FontAwesomeIcon icon={faQuestion} className="mr-4" />
+          {/* <FontAwesomeIcon icon={faQuestion} className="mr-4" /> */}
           <a
             className="text-secondary"
             href={item.href}
