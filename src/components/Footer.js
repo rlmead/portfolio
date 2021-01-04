@@ -13,7 +13,8 @@ function Footer() {
           linksData.map((item, index) => {
             return (
               <NavItem
-                style={{ padding: "7px", fontSize: "1.5em" }}
+                style={{ fontSize: "1.5em" }}
+                className="m-2"
                 key={index}>
                 <a
                   className="text-light"
