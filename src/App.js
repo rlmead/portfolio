@@ -5,20 +5,24 @@ import ProjectDisplay from "./components/ProjectDisplay";
 
 function App() {
   return (
-    <div className="text-center">
+    <div className="bg-secondary">
       <Jumbotron
         fluid
-        className="bg-primary text-secondary">
+        className="bg-primary text-white p-3 sticky-top">
         <Container fluid>
-          <h5>
-            data engineer, full stack developer, linguist, maker
-            </h5>
           <h1>R. L. MEAD</h1>
-          <p>interested in sustainability, design, science, creativity, and social cooperation</p>
+          <h5>data engineer, full stack developer, linguist, maker</h5>
         </Container>
       </Jumbotron>
       <ProjectDisplay />
       <Footer />
+      <Jumbotron
+        fluid
+        className="bg-danger text-white text-right p-3 mb-5">
+        <h2>about me</h2>
+        <p>i'm a data engineer and full-stack developer with lots of interests and creative drive. i love making things, and i love learning.</p>
+        <p>i'm inspired by sustainability, design, science, creativity, and social cooperation.</p>
+      </Jumbotron>
     </div >
   )
 }
