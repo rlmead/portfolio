@@ -37,11 +37,14 @@ function ProjectDisplay() {
           src={item.img_src}
           alt={item.img_alt} />
         <div
-          className="text-primary carousel-caption d-none d-md-block">
+          className="text-primary carousel-caption d-md-block"
+          style={{ top: "0", bottom: "auto" }}>
           <h3>{item.title}</h3>
           <p>{item.date}</p>
           <FontAwesomeIcon icon={faQuestion} className="m-3" />
-          <a href={item.href} target="_blank">
+          <a
+            href={item.href}
+            target="_blank">
             <FontAwesomeIcon icon={faExternalLinkAlt} className="m-3" />
           </a>
         </div>
@@ -54,7 +57,7 @@ function ProjectDisplay() {
       activeIndex={activeIndex}
       next={next}
       previous={previous}
-      className="mb-5"
+      className="mb-5 carousel-fade"
     >
       <CarouselIndicators items={projectsData} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
