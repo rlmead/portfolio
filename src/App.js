@@ -8,7 +8,7 @@ function App() {
     <div className="bg-secondary">
       <Jumbotron
         fluid
-        className="bg-primary text-white p-3 sticky-top">
+        className="bg-primary sticky-top text-secondary p-3 m-0">
         <Container fluid>
           <h1>R. L. MEAD</h1>
           <h5>data engineer, full stack developer, linguist, maker</h5>
