@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Container } from "reactstrap";
+import { Jumbotron, Container, Row, Col } from "reactstrap";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./components/ProjectDisplay";
 
@@ -18,10 +18,14 @@ function App() {
       <Footer />
       <Jumbotron
         fluid
-        className="bg-danger text-white text-right p-3 mb-5">
-        <h2>about me</h2>
-        <p>i'm a data engineer and full-stack developer with lots of interests and creative drive. i love making things, and i love learning.</p>
-        <p>i'm inspired by sustainability, design, science, creativity, and social cooperation.</p>
+        className="bg-danger text-white p-3 mb-5">
+        <Row>
+          <Col md={{ size: 6, offset: 3 }}>
+            <h2 className="text-center">about me</h2>
+            <p>i'm a data engineer and full-stack developer with lots of interests and creative drive. i love making things, and i love learning.</p>
+            <p>i'm inspired by sustainability, design, science, creativity, and social cooperation.</p>
+          </Col>
+        </Row>
       </Jumbotron>
     </div >
   )
