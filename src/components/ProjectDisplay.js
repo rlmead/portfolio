@@ -28,19 +28,17 @@ function ProjectDisplay() {
   const slides = projectsData.map((item, index) => {
     return (
       <CarouselItem
-        className="bg-info"
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={index}
       >
         <div
-          className="text-left text-secondary carousel-caption d-md-block ml-4"
+          className="text-left text-primary carousel-caption d-md-block ml-4"
           style={{ position: "relative", top: "0", bottom: "auto" }}>
           <h3>{item.title}</h3>
           <p className="mb-0">{item.date}</p>
           {/* <FontAwesomeIcon icon={faQuestion} className="mr-4" /> */}
           <a
-            className="text-secondary"
             href={item.href}
             target="_blank">
             <FontAwesomeIcon icon={faExternalLinkAlt} />
@@ -51,7 +49,7 @@ function ProjectDisplay() {
           src={item.img_src}
           alt={item.img_alt} />
         <div
-          className="text-secondary carousel-caption d-md-block mt-2"
+          className="carousel-caption d-md-block mt-2"
           style={{ position: "relative", top: "0", bottom: "auto" }}>
         </div>
       </CarouselItem>
