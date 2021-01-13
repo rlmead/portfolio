@@ -22,7 +22,7 @@ function App() {
         <Row>
           <Col md={{ size: 6, offset: 3 }}>
             <h2 className="text-center">about me</h2>
-            <p>i have lots of interests and creative drive.</p>
+            <p>i'm a generalist with lots of interests and creative drive.</p>
             <p>i love making things, and i love learning. when introduced to a new system, i enjoy thinking of ways to improve it. when possible, i take the initiative to make those improvements myself.</p>
             <p>i live for creative collaboration. i'm also inspired by sustainability, design, science, and social cooperation.</p>
           </Col>
