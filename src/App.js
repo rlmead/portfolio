@@ -2,6 +2,7 @@ import React from "react";
 import { Jumbotron, Container, Row, Col } from "reactstrap";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./components/ProjectDisplay";
+import KnitwearDisplay from "./components/KnitwearDisplay";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </Container>
       </Jumbotron>
       <ProjectDisplay />
+      <KnitwearDisplay />
       <Footer />
       <Jumbotron
         fluid
