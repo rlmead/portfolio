@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, Jumbotron } from "reactstrap";
+import { Carousel, CarouselItem, CarouselControl, CarouselIndicators } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestion, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import projectsData from "../data/projects";
@@ -58,11 +58,6 @@ function ProjectDisplay() {
 
   return (
     <>
-      <Jumbotron
-        fluid
-        className="text-center text-white bg-danger p-1 m-0" >
-        <h2>web projects</h2>
-      </Jumbotron>
       <Carousel
         activeIndex={activeIndex}
         next={next}
