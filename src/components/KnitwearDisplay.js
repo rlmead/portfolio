@@ -13,7 +13,7 @@ function KnitwearDisplay() {
       </Jumbotron>
       <Container>
         <Row>
-          <Col md="4">
+          <Col sm="4">
             {
               knitwearData.slice(0, itemsPerCol).map((item, index) => {
                 return (
@@ -24,7 +24,7 @@ function KnitwearDisplay() {
               })
             }
           </Col>
-          <Col md="4">
+          <Col sm="4">
             {
               knitwearData.slice(itemsPerCol, itemsPerCol * 2).map((item, index) => {
                 return (
@@ -35,7 +35,7 @@ function KnitwearDisplay() {
               })
             }
           </Col>
-          <Col md="4">
+          <Col sm="4">
             {
               knitwearData.slice(itemsPerCol * 2).map((item, index) => {
                 return (
