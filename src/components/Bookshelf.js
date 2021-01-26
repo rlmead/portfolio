@@ -27,7 +27,7 @@ function Bookshelf() {
           })
         }
       </Nav>
-      <CardDeck className="row row-cols-sm-3 m-2">
+      <CardDeck className="row row-cols-1 row-cols-sm-3 m-2">
         {
           booksData[booksView].map((item, index) => {
             return (
