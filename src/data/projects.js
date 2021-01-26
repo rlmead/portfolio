@@ -1,10 +1,10 @@
-import PuzzleSliderPic from "../img/puzzle-slider.png"
-import ToDontPic from "../img/to-dont.png"
-import PseudoRandomPic from "../img/pseudo-random.png"
-import TicTacToePic from "../img/tic-tac-toe.png";
-import WeatherPic from "../img/weather.png";
-import ClockPic from "../img/clock.png";
-import IdeaNetworkPic from "../img/idea-network.png";
+import PuzzleSliderPic from "../img/web-projects/puzzle-slider.png"
+import ToDontPic from "../img/web-projects/to-dont.png"
+import PseudoRandomPic from "../img/web-projects/pseudo-random.png"
+import TicTacToePic from "../img/web-projects/tic-tac-toe.png";
+import WeatherPic from "../img/web-projects/weather.png";
+import ClockPic from "../img/web-projects/clock.png";
+import IdeaNetworkPic from "../img/web-projects/idea-network.png";
 
 const projectsData = [
     {
