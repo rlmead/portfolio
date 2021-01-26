@@ -4,11 +4,13 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./components/ProjectDisplay";
 import KnitwearDisplay from "./components/KnitwearDisplay";
+import Bookshelf from "./components/Bookshelf";
 
 function App() {
   let sections = [
     // { href: "web-projects", text: "web projects" },
     // { href: "knitwear-design", text: "knitwear design" },
+    // { href: "bookshelf", text: "bookshelf" },
     // { href: "about-me", text: "about me" }
   ];
 
@@ -27,7 +29,12 @@ function App() {
         <h2>knitwear design</h2>
       </Jumbotron>
       <KnitwearDisplay />
-      <Footer />
+      <Jumbotron
+        fluid
+        className="text-center text-white bg-danger p-1 m-0" >
+        <h2>bookshelf</h2>
+      </Jumbotron>
+      <Bookshelf />
       <Jumbotron
         fluid
         className="bg-danger text-white p-3 mb-5" >
@@ -40,6 +47,7 @@ function App() {
           </Col>
         </Row>
       </Jumbotron>
+      <Footer />
     </div >
   )
 }
