@@ -7,7 +7,7 @@ function KnitwearDisplay() {
   return (
     <Container>
       <Row>
-        <Col sm="4">
+        <Col xs="4">
           {
             knitwearData.slice(0, itemsPerCol).map((item, index) => {
               return (
@@ -18,7 +18,7 @@ function KnitwearDisplay() {
             })
           }
         </Col>
-        <Col sm="4">
+        <Col xs="4">
           {
             knitwearData.slice(itemsPerCol, itemsPerCol * 2).map((item, index) => {
               return (
@@ -29,7 +29,7 @@ function KnitwearDisplay() {
             })
           }
         </Col>
-        <Col sm="4">
+        <Col xs="4">
           {
             knitwearData.slice(itemsPerCol * 2).map((item, index) => {
               return (
