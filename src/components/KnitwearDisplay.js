@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 import knitwearData from "../data/knitwear";
 
 function KnitwearDisplay() {
