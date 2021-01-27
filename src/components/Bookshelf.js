@@ -10,7 +10,7 @@ function Bookshelf() {
       <Nav
         justified
         tabs
-        className="bg-danger text-white">
+        className="bg-danger text-white" >
         {
           Object.keys(booksData).map((item, index) => {
             return (
@@ -20,14 +20,15 @@ function Bookshelf() {
                   className={(booksView === item) ? "active" : ""}
                   id={item}
                   onClick={() => setBooksView(item)}>
-                  <h5>{item}</h5>
+                  <h4>{item}</h4>
                 </NavLink>
               </NavItem>
             )
           })
         }
       </Nav>
-      <CardDeck className="row row-cols-1 row-cols-sm-3 m-2">
+      <CardDeck
+        className="row row-cols-1 row-cols-sm-3 m-2" >
         {
           booksData[booksView].map((item, index) => {
             return (
