@@ -24,7 +24,7 @@ function App() {
       <Navbar
         expand="md"
         light
-        className="navbar-default navbar-dark sticky-top text-secondary bg-danger">
+        className="navbar-default navbar-dark sticky-top text-secondary bg-success">
         <h1>R. L. Mead</h1>
         <NavbarToggler onClick={toggle} />
         <Collapse
