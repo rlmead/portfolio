@@ -43,7 +43,7 @@ function App() {
             <h2 className="text-center">about me</h2>
             <p>i'm a data engineer and full stack developer with lots of interests and creative drive.</p>
             <p>i love making things, and i love learning. when introduced to a new system, i enjoy thinking of ways to improve it. when possible, i take the initiative to make those improvements myself.</p>
-            <p>i live for creative collaboration. i'm also inspired by social justice, sustainability, design, and science.</p>
+            <p>i live for creative collaboration. i'm motivated and inspired by social justice, sustainability, design, and science.</p>
           </Col>
         </Row>
       </Jumbotron>
