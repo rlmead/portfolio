@@ -5,9 +5,9 @@ import knitwearData from "../data/knitwear";
 function KnitwearDisplay() {
   var itemsPerCol = knitwearData.length / 3;
   return (
-    <Container>
+    <Container className="mb-5">
       <Row>
-        <Col xs="4">
+        <Col sm="4">
           {
             knitwearData.slice(0, itemsPerCol).map((item, index) => {
               return (
@@ -18,7 +18,7 @@ function KnitwearDisplay() {
             })
           }
         </Col>
-        <Col xs="4">
+        <Col sm="4">
           {
             knitwearData.slice(itemsPerCol, itemsPerCol * 2).map((item, index) => {
               return (
@@ -29,7 +29,7 @@ function KnitwearDisplay() {
             })
           }
         </Col>
-        <Col xs="4">
+        <Col sm="4" className="mb-3">
           {
             knitwearData.slice(itemsPerCol * 2).map((item, index) => {
               return (

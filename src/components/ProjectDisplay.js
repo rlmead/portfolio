@@ -62,7 +62,7 @@ function ProjectDisplay() {
         activeIndex={activeIndex}
         next={next}
         previous={previous}
-        className="m-3 p-0"
+        className="m-3 mb-5 p-0"
       >
         <CarouselIndicators
           items={projectsData}

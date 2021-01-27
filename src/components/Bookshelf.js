@@ -10,7 +10,7 @@ function Bookshelf() {
       <Nav
         justified
         tabs
-        className="bg-danger text-white">
+        className="bg-success text-white" >
         {
           Object.keys(booksData).map((item, index) => {
             return (
@@ -27,13 +27,14 @@ function Bookshelf() {
           })
         }
       </Nav>
-      <CardDeck className="row row-cols-sm-3 m-2">
+      <CardDeck
+        className="row row-cols-1 row-cols-sm-3 m-2 mb-5" >
         {
           booksData[booksView].map((item, index) => {
             return (
               <a href={item.href} target="_blank">
                 <Card
-                  className={"m-2 text-white " + (index % 2 === 0 ? "bg-primary" : "bg-info")}
+                  className="m-2 text-primary border-primary"
                   key={index} >
                   <CardBody>
                     <CardTitle tag="h5">{item.title}</CardTitle>

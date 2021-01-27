@@ -6,7 +6,7 @@ import linksData from "../data/links";
 function Footer() {
   return (
     <Navbar
-      className="fixed-bottom text-light bg-success">
+      className="fixed-bottom text-light bg-danger">
       <Nav
         className="mx-auto">
         {
