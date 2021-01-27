@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink, Jumbotron, Row, Col } from "reactstrap";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from "reactstrap";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./components/ProjectDisplay";
 import KnitwearDisplay from "./components/KnitwearDisplay";
 import Bookshelf from "./components/Bookshelf";
+import About from "./components/About";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,12 +12,15 @@ function App() {
 
   const [view, setView] = useState("web projects");
 
-  console.log(view);
-
-  let sections = ["web projects", "knitwear design", "bookshelf", "about me"];
+  let sections = {
+    "web projects": <ProjectDisplay />,
+    "knitwear design": <KnitwearDisplay />,
+    "bookshelf": <Bookshelf />,
+    "about me": <About />
+  };
 
   return (
-    <div className="bg-secondary">
+    <>
       <Navbar
         expand="md"
         light
@@ -30,7 +34,7 @@ function App() {
             style={{ display: "flex", flexFlow: "row nowrap" }}
             navbar >
             {
-              sections.map((item, index) => {
+              Object.keys(sections).map((item, index) => {
                 return (
                   <NavItem
                     className="mx-auto"
@@ -47,39 +51,11 @@ function App() {
           </Nav>
         </Collapse>
       </Navbar>
-
-      <Jumbotron
-        fluid
-        className="text-center text-white bg-danger p-1 m-0" >
-        <h2>web projects</h2>
-      </Jumbotron>
-      <ProjectDisplay />
-      <Jumbotron
-        fluid
-        className="text-center text-white bg-danger p-1 m-0" >
-        <h2>knitwear design</h2>
-      </Jumbotron>
-      <KnitwearDisplay />
-      <Jumbotron
-        fluid
-        className="text-center text-white bg-danger p-1 m-0" >
-        <h2>bookshelf</h2>
-      </Jumbotron>
-      <Bookshelf />
-      <Jumbotron
-        fluid
-        className="bg-danger text-white p-3 mb-5" >
-        <Row>
-          <Col md={{ size: 6, offset: 3 }}>
-            <h2 className="text-center">about me</h2>
-            <p>i'm a data engineer and full stack developer with lots of interests and creative drive.</p>
-            <p>i love making things, and i love learning. when introduced to a new system, i enjoy thinking of ways to improve it. when possible, i take the initiative to make those improvements myself.</p>
-            <p>i live for creative collaboration. i'm motivated and inspired by social justice, sustainability, design, and science.</p>
-          </Col>
-        </Row>
-      </Jumbotron>
+      {
+        sections[view]
+      }
       <Footer />
-    </div >
+    </>
   )
 }
 
