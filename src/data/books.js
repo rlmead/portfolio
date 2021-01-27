@@ -1,16 +1,41 @@
 const booksData = {
-  "currently reading": [
+  "recently read": [
     {
-      "href": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
-      "title": "The Age of Surveillance Capitalism",
-      "subtitle": "The Fight for a Human Future at the New Frontier of Power",
-      "by": "Shoshana Zuboff"
+      "href": "https://www.goodreads.com/book/show/25666050-algorithms-to-live-by",
+      "title": "Algorithms to Live By",
+      "subtitle": "The Computer Science of Human Decisions",
+      "by": "Brian Christian and Tom Griffiths"
     },
     {
       "href": "https://www.goodreads.com/book/show/53231994-all-we-can-save",
       "title": "All We Can Save",
       "subtitle": "Truth, Courage, and Solutions for the Climate Crisis",
       "by": "Ayana Elizabeth Johnson and Katharine K. Wilkinson"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/42972014-secondhand",
+      "title": "Secondhand",
+      "subtitle": "Travels in the New Global Garage Sale",
+      "by": "Adam Minter"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists",
+      "title": "We Should All Be Feminists",
+      "by": "Chimamanda Ngozi Adichie"
+    }
+  ],
+  "currently reading": [
+    {
+      "href": "https://www.goodreads.com/book/show/34762552-algorithms-of-oppression",
+      "title": "Algorithms of Oppression",
+      "subtitle": "How Search Engines Reinforce Racism",
+      "by": "Safiya Umoja Noble"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+      "title": "The Age of Surveillance Capitalism",
+      "subtitle": "The Fight for a Human Future at the New Frontier of Power",
+      "by": "Shoshana Zuboff"
     },
     {
       "href": "https://www.goodreads.com/book/show/37572517-emotional-ai",
@@ -21,10 +46,9 @@ const booksData = {
   ],
   "want to read": [
     {
-      "href": "https://www.goodreads.com/book/show/34762552-algorithms-of-oppression",
-      "title": "Algorithms of Oppression",
-      "subtitle": "How Search Engines Reinforce Racism",
-      "by": "Safiya Umoja Noble"
+      "href": "https://www.goodreads.com/book/show/37570595-friday-black",
+      "title": "Friday Black",
+      "by": "Nana Kwame Adjei-Brenyah"
     },
     {
       "href": "https://www.goodreads.com/book/show/52879286-humankind",
@@ -54,25 +78,6 @@ const booksData = {
       "title": "Winners Take All",
       "subtitle": "The Elite Charade of Changing the World",
       "by": "Anand Giridharadas"
-    }
-  ],
-  "recently read": [
-    {
-      "href": "https://www.goodreads.com/book/show/25666050-algorithms-to-live-by",
-      "title": "Algorithms to Live By",
-      "subtitle": "The Computer Science of Human Decisions",
-      "by": "Brian Christian and Tom Griffiths"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/42972014-secondhand",
-      "title": "Secondhand",
-      "subtitle": "Travels in the New Global Garage Sale",
-      "by": "Adam Minter"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists",
-      "title": "We Should All Be Feminists",
-      "by": "Chimamanda Ngozi Adichie"
     }
   ]
 }
