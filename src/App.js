@@ -1,22 +1,53 @@
-import React from "react";
-import { Jumbotron, Row, Col } from "reactstrap";
-import Header from "./components/Header";
+import React, { useState } from "react";
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink, Jumbotron, Row, Col } from "reactstrap";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./components/ProjectDisplay";
 import KnitwearDisplay from "./components/KnitwearDisplay";
 import Bookshelf from "./components/Bookshelf";
 
 function App() {
-  let sections = [
-    // { href: "web-projects", text: "web projects" },
-    // { href: "knitwear-design", text: "knitwear design" },
-    // { href: "bookshelf", text: "bookshelf" },
-    // { href: "about-me", text: "about me" }
-  ];
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
+
+  const [view, setView] = useState("web projects");
+
+  console.log(view);
+
+  let sections = ["web projects", "knitwear design", "bookshelf", "about me"];
 
   return (
     <div className="bg-secondary">
-      <Header sections={sections} />
+      <Navbar
+        expand="md"
+        light
+        className="navbar-default navbar-dark sticky-top text-secondary bg-danger">
+        <h1>R. L. Mead</h1>
+        <NavbarToggler onClick={toggle} />
+        <Collapse
+          isOpen={isOpen}
+          navbar >
+          <Nav
+            style={{ display: "flex", flexFlow: "row nowrap" }}
+            navbar >
+            {
+              sections.map((item, index) => {
+                return (
+                  <NavItem
+                    className="mx-auto"
+                    key={index}
+                    onClick={() => setView(item)} >
+                    <NavLink
+                      className={item !== view && "text-secondary"} >
+                      {item}
+                    </NavLink>
+                  </NavItem>
+                )
+              })
+            }
+          </Nav>
+        </Collapse>
+      </Navbar>
+
       <Jumbotron
         fluid
         className="text-center text-white bg-danger p-1 m-0" >
