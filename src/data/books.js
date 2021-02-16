@@ -1,6 +1,12 @@
 const booksData = {
   "recently read": [
     {
+      "href": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
+      "title": "The Age of Surveillance Capitalism",
+      "subtitle": "The Fight for a Human Future at the New Frontier of Power",
+      "by": "Shoshana Zuboff"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/25666050-algorithms-to-live-by",
       "title": "Algorithms to Live By",
       "subtitle": "The Computer Science of Human Decisions",
@@ -11,6 +17,11 @@ const booksData = {
       "title": "All We Can Save",
       "subtitle": "Truth, Courage, and Solutions for the Climate Crisis",
       "by": "Ayana Elizabeth Johnson and Katharine K. Wilkinson"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/60931.Kindred",
+      "title": "Kindred",
+      "by": "Octavia Butler"
     },
     {
       "href": "https://www.goodreads.com/book/show/42972014-secondhand",
@@ -32,19 +43,23 @@ const booksData = {
       "by": "Safiya Umoja Noble"
     },
     {
-      "href": "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism",
-      "title": "The Age of Surveillance Capitalism",
-      "subtitle": "The Fight for a Human Future at the New Frontier of Power",
-      "by": "Shoshana Zuboff"
-    },
-    {
       "href": "https://www.goodreads.com/book/show/37572517-emotional-ai",
       "title": "Emotional AI",
       "subtitle": "The Rise of Empathic Media",
       "by": "Andrew McStay"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/48570454-transcendent-kingdom",
+      "title": "Transcendent Kingdom",
+      "by": "Yaa Gyasi"
     }
   ],
   "want to read": [
+    {
+      "href": "https://www.goodreads.com/book/show/17607.All_About_Love",
+      "title": "All About Love",
+      "by": "bell hooks"
+    },
     {
       "href": "https://www.goodreads.com/book/show/37570595-friday-black",
       "title": "Friday Black",
@@ -67,11 +82,6 @@ const booksData = {
       "title": "Stakes Is High",
       "subtitle": "Life After the American Dream",
       "by": "Mychal Denzel Smith"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/48570454-transcendent-kingdom",
-      "title": "Transcendent Kingdom",
-      "by": "Yaa Gyasi"
     },
     {
       "href": "https://www.goodreads.com/book/show/37506348-winners-take-all",
