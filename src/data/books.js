@@ -37,16 +37,16 @@ const booksData = {
   ],
   "currently reading": [
     {
-      "href": "https://www.goodreads.com/book/show/34762552-algorithms-of-oppression",
-      "title": "Algorithms of Oppression",
-      "subtitle": "How Search Engines Reinforce Racism",
-      "by": "Safiya Umoja Noble"
-    },
-    {
       "href": "https://www.goodreads.com/book/show/37572517-emotional-ai",
       "title": "Emotional AI",
       "subtitle": "The Rise of Empathic Media",
       "by": "Andrew McStay"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/39979237-moneyland",
+      "title": "Moneyland",
+      "subtitle": "Why Thieves and Crooks Now Rule the World and How To Take It Back",
+      "by": "Oliver Bullough"
     },
     {
       "href": "https://www.goodreads.com/book/show/48570454-transcendent-kingdom",
@@ -56,9 +56,20 @@ const booksData = {
   ],
   "want to read": [
     {
+      "href": "https://www.goodreads.com/book/show/34762552-algorithms-of-oppression",
+      "title": "Algorithms of Oppression",
+      "subtitle": "How Search Engines Reinforce Racism",
+      "by": "Safiya Umoja Noble"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/17607.All_About_Love",
       "title": "All About Love",
       "by": "bell hooks"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/23705600-catalog-of-unabashed-gratitude",
+      "title": "Catalog of Unabashed Gratitude",
+      "by": "Ross Gay"
     },
     {
       "href": "https://www.goodreads.com/book/show/37570595-friday-black",
@@ -82,6 +93,12 @@ const booksData = {
       "title": "Stakes Is High",
       "subtitle": "Life After the American Dream",
       "by": "Mychal Denzel Smith"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
+      "title": "Twilight of Democracy",
+      "subtitle": "The Seductive Lure of Authoritarianism",
+      "by": "Anne Applebaum"
     },
     {
       "href": "https://www.goodreads.com/book/show/37506348-winners-take-all",
