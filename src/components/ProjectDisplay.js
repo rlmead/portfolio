@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Carousel, CarouselItem, CarouselControl, CarouselIndicators } from "reactstrap";
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Carousel, CarouselItem, CarouselControl, CarouselIndicators } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQuestion, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import projectsData from "../data/projects";
@@ -25,6 +25,20 @@ function ProjectDisplay() {
     setActiveIndex(newIndex);
   }
 
+  const [modal, setModal] = useState(false);
+  const [modalTitle, setModalTitle] = useState("");
+  const [modalBodyText, setModalBodyText] = useState([""]);
+  const [modalAppLink, setModalAppLink] = useState("");
+  const [modalCodeLink, setModalCodeLink] = useState("");
+
+  const toggle = (title, bodyText, appLink, codeLink) => {
+    setModal(!modal);
+    setModalTitle(title);
+    setModalBodyText(bodyText);
+    setModalAppLink(appLink);
+    setModalCodeLink(codeLink);
+  };
+
   const slides = projectsData.map((item, index) => {
     return (
       <CarouselItem
@@ -37,9 +51,9 @@ function ProjectDisplay() {
           style={{ position: "relative", top: "0", bottom: "auto" }}>
           <h3>{item.title}</h3>
           <p className="mb-0">{item.date}</p>
-          {/* <FontAwesomeIcon icon={faQuestion} className="mr-4" /> */}
+          <FontAwesomeIcon style={{cursor: "pointer"}} icon={faQuestion} className="mr-4" onClick={() => toggle(item.title, item.about, item.app_link, item.code_link)} />
           <a
-            href={item.href}
+            href={item.app_link}
             target="_blank">
             <FontAwesomeIcon icon={faExternalLinkAlt} />
           </a>
@@ -72,6 +86,26 @@ function ProjectDisplay() {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
       </Carousel>
+      <Modal isOpen={modal} toggle={() => toggle("", [""],"")}>
+        <ModalHeader toggle={() => toggle("", [""],"")}>{modalTitle}</ModalHeader>
+        <ModalBody>
+          {
+            modalBodyText.map((item, index) => {
+              return (
+                <p key={index}>{item}</p>
+              );
+            })
+          }
+        </ModalBody>
+        <ModalFooter>
+          <a href={modalAppLink} target="_blank">
+            <Button color="success">app</Button>
+          </a>
+          <a href={modalCodeLink} target="_blank">
+            <Button color="success">code</Button>
+          </a>
+        </ModalFooter>
+      </Modal>
     </>
   );
 }
