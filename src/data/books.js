@@ -30,6 +30,11 @@ const booksData = {
       "by": "Adam Minter"
     },
     {
+      "href": "https://www.goodreads.com/book/show/48570454-transcendent-kingdom",
+      "title": "Transcendent Kingdom",
+      "by": "Yaa Gyasi"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists",
       "title": "We Should All Be Feminists",
       "by": "Chimamanda Ngozi Adichie"
@@ -49,9 +54,10 @@ const booksData = {
       "by": "Oliver Bullough"
     },
     {
-      "href": "https://www.goodreads.com/book/show/48570454-transcendent-kingdom",
-      "title": "Transcendent Kingdom",
-      "by": "Yaa Gyasi"
+      "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
+      "title": "Parable of the Sower",
+      "subtitle": "Earthseed #1",
+      "by": "Octavia Butler"
     }
   ],
   "want to read": [
@@ -67,9 +73,21 @@ const booksData = {
       "by": "bell hooks"
     },
     {
+      "href": "https://www.goodreads.com/book/show/51152447-caste",
+      "title": "Caste",
+      "subtitle": "The Origins of Our Discontents",
+      "by": "Isabel Wilkerson"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/23705600-catalog-of-unabashed-gratitude",
       "title": "Catalog of Unabashed Gratitude",
       "by": "Ross Gay"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/32191706-the-color-of-law",
+      "title": "The Color of Law",
+      "subtitle": "A Forgotten History of How Our Government Segregated America",
+      "by": "Richard Rothstein"
     },
     {
       "href": "https://www.goodreads.com/book/show/37570595-friday-black",
@@ -93,6 +111,12 @@ const booksData = {
       "title": "Stakes Is High",
       "subtitle": "Life After the American Dream",
       "by": "Mychal Denzel Smith"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/53231851-the-sum-of-us",
+      "title": "The Sum of Us",
+      "subtitle": "What Racism Costs Everyone and How We Can Prosper Together",
+      "by": "Heather McGhee"
     },
     {
       "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
