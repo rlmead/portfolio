@@ -19,9 +19,21 @@ const booksData = {
       "by": "Ayana Elizabeth Johnson and Katharine K. Wilkinson"
     },
     {
+      "href": "https://www.goodreads.com/book/show/37572517-emotional-ai",
+      "title": "Emotional AI",
+      "subtitle": "The Rise of Empathic Media",
+      "by": "Andrew McStay"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/60931.Kindred",
       "title": "Kindred",
       "by": "Octavia Butler"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/39979237-moneyland",
+      "title": "Moneyland",
+      "subtitle": "Why Thieves and Crooks Now Rule the World and How To Take It Back",
+      "by": "Oliver Bullough"
     },
     {
       "href": "https://www.goodreads.com/book/show/42972014-secondhand",
@@ -42,16 +54,16 @@ const booksData = {
   ],
   "currently reading": [
     {
-      "href": "https://www.goodreads.com/book/show/37572517-emotional-ai",
-      "title": "Emotional AI",
-      "subtitle": "The Rise of Empathic Media",
-      "by": "Andrew McStay"
+      "href": "https://www.goodreads.com/book/show/34762552-algorithms-of-oppression",
+      "title": "Algorithms of Oppression",
+      "subtitle": "How Search Engines Reinforce Racism",
+      "by": "Safiya Umoja Noble"
     },
     {
-      "href": "https://www.goodreads.com/book/show/39979237-moneyland",
-      "title": "Moneyland",
-      "subtitle": "Why Thieves and Crooks Now Rule the World and How To Take It Back",
-      "by": "Oliver Bullough"
+      "href": "https://www.goodreads.com/book/show/51079278-the-next-great-migration",
+      "title": "The Next Great Migration",
+      "subtitle": "The Beauty and Terror of Life on the Move",
+      "by": "Sonia Shah"
     },
     {
       "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
@@ -61,12 +73,6 @@ const booksData = {
     }
   ],
   "want to read": [
-    {
-      "href": "https://www.goodreads.com/book/show/34762552-algorithms-of-oppression",
-      "title": "Algorithms of Oppression",
-      "subtitle": "How Search Engines Reinforce Racism",
-      "by": "Safiya Umoja Noble"
-    },
     {
       "href": "https://www.goodreads.com/book/show/17607.All_About_Love",
       "title": "All About Love",
@@ -84,15 +90,21 @@ const booksData = {
       "by": "Ross Gay"
     },
     {
-      "href": "https://www.goodreads.com/book/show/32191706-the-color-of-law",
-      "title": "The Color of Law",
-      "subtitle": "A Forgotten History of How Our Government Segregated America",
-      "by": "Richard Rothstein"
+      "href": "https://www.goodreads.com/book/show/40125546-dirt-to-soil",
+      "title": "Dirt to Soil",
+      "subtitle": "One Family's Journey Into Regenerative Agriculture",
+      "by": "Gabe Brown & Courtney White"
     },
     {
       "href": "https://www.goodreads.com/book/show/37570595-friday-black",
       "title": "Friday Black",
       "by": "Nana Kwame Adjei-Brenyah"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/48710241-futureproof",
+      "title": "Futureproof",
+      "subtitle": "9 Rules for Humans in the Age of Automation",
+      "by": "Kevin Roose"
     },
     {
       "href": "https://www.goodreads.com/book/show/52879286-humankind",
@@ -101,10 +113,9 @@ const booksData = {
       "by": "Rutger Bregman"
     },
     {
-      "href": "https://www.goodreads.com/book/show/51079278-the-next-great-migration",
-      "title": "The Next Great Migration",
-      "subtitle": "The Beauty and Terror of Life on the Move",
-      "by": "Sonia Shah"
+      "href": "https://www.goodreads.com/book/show/53404760-reality-and-other-stories",
+      "title": "Reality and Other Stories",
+      "by": "John Lanchester"
     },
     {
       "href": "https://www.goodreads.com/book/show/44782346-stakes-is-high",
