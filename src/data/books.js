@@ -113,6 +113,12 @@ const booksData = {
       "by": "Rutger Bregman"
     },
     {
+      "href": "https://www.goodreads.com/book/show/41536.My_Soul_to_Keep",
+      "title": "My Soul to Keep",
+      "subtitle": "African Immortals #1",
+      "by": "Tananarive Due"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/53404760-reality-and-other-stories",
       "title": "Reality and Other Stories",
       "by": "John Lanchester"
