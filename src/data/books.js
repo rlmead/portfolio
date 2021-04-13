@@ -36,6 +36,12 @@ const booksData = {
       "by": "Oliver Bullough"
     },
     {
+      "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
+      "title": "Parable of the Sower",
+      "subtitle": "Earthseed #1",
+      "by": "Octavia Butler"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/42972014-secondhand",
       "title": "Secondhand",
       "subtitle": "Travels in the New Global Garage Sale",
@@ -60,16 +66,15 @@ const booksData = {
       "by": "Safiya Umoja Noble"
     },
     {
+      "href": "https://www.goodreads.com/book/show/37570595-friday-black",
+      "title": "Friday Black",
+      "by": "Nana Kwame Adjei-Brenyah"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/51079278-the-next-great-migration",
       "title": "The Next Great Migration",
       "subtitle": "The Beauty and Terror of Life on the Move",
       "by": "Sonia Shah"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
-      "title": "Parable of the Sower",
-      "subtitle": "Earthseed #1",
-      "by": "Octavia Butler"
     }
   ],
   "want to read": [
@@ -94,11 +99,6 @@ const booksData = {
       "title": "Dirt to Soil",
       "subtitle": "One Family's Journey Into Regenerative Agriculture",
       "by": "Gabe Brown & Courtney White"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/37570595-friday-black",
-      "title": "Friday Black",
-      "by": "Nana Kwame Adjei-Brenyah"
     },
     {
       "href": "https://www.goodreads.com/book/show/48710241-futureproof",
