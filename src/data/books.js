@@ -25,6 +25,11 @@ const booksData = {
       "by": "Andrew McStay"
     },
     {
+      "href": "https://www.goodreads.com/book/show/37570595-friday-black",
+      "title": "Friday Black",
+      "by": "Nana Kwame Adjei-Brenyah"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/60931.Kindred",
       "title": "Kindred",
       "by": "Octavia Butler"
@@ -34,6 +39,12 @@ const booksData = {
       "title": "Moneyland",
       "subtitle": "Why Thieves and Crooks Now Rule the World and How To Take It Back",
       "by": "Oliver Bullough"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/51079278-the-next-great-migration",
+      "title": "The Next Great Migration",
+      "subtitle": "The Beauty and Terror of Life on the Move",
+      "by": "Sonia Shah"
     },
     {
       "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
@@ -66,15 +77,14 @@ const booksData = {
       "by": "Safiya Umoja Noble"
     },
     {
-      "href": "https://www.goodreads.com/book/show/37570595-friday-black",
-      "title": "Friday Black",
-      "by": "Nana Kwame Adjei-Brenyah"
+      "href": "https://www.goodreads.com/book/show/23602473-god-help-the-child",
+      "title": "God Help the Child",
+      "by": "Toni Morrison"
     },
     {
-      "href": "https://www.goodreads.com/book/show/51079278-the-next-great-migration",
-      "title": "The Next Great Migration",
-      "subtitle": "The Beauty and Terror of Life on the Move",
-      "by": "Sonia Shah"
+      "href": "https://www.goodreads.com/book/show/40697594-how-we-fight-white-supremacy",
+      "title": "How We Fight White Supremacy",
+      "by": "Akiba Solomon and Kenrya Rankin"
     }
   ],
   "want to read": [
