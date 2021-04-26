@@ -5,8 +5,21 @@ import TicTacToePic from "../img/web-projects/tic-tac-toe.png";
 import WeatherPic from "../img/web-projects/weather.png";
 import ClockPic from "../img/web-projects/clock.png";
 import IdeaNetworkPic from "../img/web-projects/idea-network.png";
+import GFSnacksPic from "../img/web-projects/gluten-free-snacks.png";
 
 const projectsData = [
+    {
+        "title": "random recipe generator",
+        "app_link": "https://gluten-free-snacks.web.app",
+        "code_link": "https://github.com/rlmead/gf-snacks",
+        "date": "april 2021",
+        "img_src": GFSnacksPic,
+        "img_alt": "randomly generated gluten free snack recipe",
+        "about": [
+            "my gluten-free snack generator app was inspired by a friend who follows a gluten-free diet and writes about food. as she worked on a book of gluten-free snack recipes, i had the idea to build a random recipe generator to go along with it.",
+            "i'm often drawn to the idea of generating \"every possible X\", where X is something that i'm currently thinking about or doing. i enjoy the creativity of exploring unusual possibilities and combinations.",
+            "this app presented two fun challenges: first i had to decide how to structure the ingredient data, then i had to build an algorithm to return reasonable combinations of these ingredients. i divided the ingredients into two major categories - bases, subdivided into starches & proteins, and toppings, subdivided into sweet & savory / sauces & sprinkles. my algorithm returns combinations of these ingredients based on a few dice rolls - often surprising, and probably not always delicious!"]
+    },
     {
         "title": "idea network",
         "app_link": "https://network-of-ideas.web.app",
