@@ -30,6 +30,16 @@ const booksData = {
       "by": "Nana Kwame Adjei-Brenyah"
     },
     {
+      "href": "https://www.goodreads.com/book/show/23602473-god-help-the-child",
+      "title": "God Help the Child",
+      "by": "Toni Morrison"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/40697594-how-we-fight-white-supremacy",
+      "title": "How We Fight White Supremacy",
+      "by": "Akiba Solomon and Kenrya Rankin"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/60931.Kindred",
       "title": "Kindred",
       "by": "Octavia Butler"
@@ -77,14 +87,15 @@ const booksData = {
       "by": "Safiya Umoja Noble"
     },
     {
-      "href": "https://www.goodreads.com/book/show/23602473-god-help-the-child",
-      "title": "God Help the Child",
-      "by": "Toni Morrison"
+      "href": "https://www.goodreads.com/book/show/51152447-caste",
+      "title": "Caste",
+      "subtitle": "The Origins of Our Discontents",
+      "by": "Isabel Wilkerson"
     },
     {
-      "href": "https://www.goodreads.com/book/show/40697594-how-we-fight-white-supremacy",
-      "title": "How We Fight White Supremacy",
-      "by": "Akiba Solomon and Kenrya Rankin"
+      "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
+      "title": "An Unkindness of Ghosts",
+      "by": "Rivers Solomon"
     }
   ],
   "want to read": [
@@ -92,12 +103,6 @@ const booksData = {
       "href": "https://www.goodreads.com/book/show/17607.All_About_Love",
       "title": "All About Love",
       "by": "bell hooks"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/51152447-caste",
-      "title": "Caste",
-      "subtitle": "The Origins of Our Discontents",
-      "by": "Isabel Wilkerson"
     },
     {
       "href": "https://www.goodreads.com/book/show/23705600-catalog-of-unabashed-gratitude",
@@ -121,6 +126,11 @@ const booksData = {
       "title": "Humankind",
       "subtitle": "A Hopeful History",
       "by": "Rutger Bregman"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future",
+      "title": "The Ministry for the Future",
+      "by": "Kim Stanley Robinson"
     },
     {
       "href": "https://www.goodreads.com/book/show/41536.My_Soul_to_Keep",
