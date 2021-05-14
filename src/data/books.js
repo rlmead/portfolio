@@ -19,6 +19,12 @@ const booksData = {
       "by": "Ayana Elizabeth Johnson and Katharine K. Wilkinson"
     },
     {
+      "href": "https://www.goodreads.com/book/show/51152447-caste",
+      "title": "Caste",
+      "subtitle": "The Origins of Our Discontents",
+      "by": "Isabel Wilkerson"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/37572517-emotional-ai",
       "title": "Emotional AI",
       "subtitle": "The Rise of Empathic Media",
@@ -87,10 +93,10 @@ const booksData = {
       "by": "Safiya Umoja Noble"
     },
     {
-      "href": "https://www.goodreads.com/book/show/51152447-caste",
-      "title": "Caste",
-      "subtitle": "The Origins of Our Discontents",
-      "by": "Isabel Wilkerson"
+      "href": "https://www.goodreads.com/book/show/52879286-humankind",
+      "title": "Humankind",
+      "subtitle": "A Hopeful History",
+      "by": "Rutger Bregman"
     },
     {
       "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
@@ -103,6 +109,12 @@ const booksData = {
       "href": "https://www.goodreads.com/book/show/17607.All_About_Love",
       "title": "All About Love",
       "by": "bell hooks"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/52213526-the-buy-nothing-get-everything-plan",
+      "title": "The Buy Nothing, Get Everything Plan",
+      "subtitle": "Discover the Joy of Spending Less, Sharing More, and Living Generously",
+      "by": "Liesl Clark & Rebecca Rockefeller"
     },
     {
       "href": "https://www.goodreads.com/book/show/23705600-catalog-of-unabashed-gratitude",
@@ -120,12 +132,6 @@ const booksData = {
       "title": "Futureproof",
       "subtitle": "9 Rules for Humans in the Age of Automation",
       "by": "Kevin Roose"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/52879286-humankind",
-      "title": "Humankind",
-      "subtitle": "A Hopeful History",
-      "by": "Rutger Bregman"
     },
     {
       "href": "https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future",
