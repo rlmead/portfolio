@@ -83,6 +83,12 @@ const booksData = {
       "href": "https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists",
       "title": "We Should All Be Feminists",
       "by": "Chimamanda Ngozi Adichie"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/37506348-winners-take-all",
+      "title": "Winners Take All",
+      "subtitle": "The Elite Charade of Changing the World",
+      "by": "Anand Giridharadas"
     }
   ],
   "currently reading": [
@@ -99,9 +105,9 @@ const booksData = {
       "by": "Rutger Bregman"
     },
     {
-      "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
-      "title": "An Unkindness of Ghosts",
-      "by": "Rivers Solomon"
+      "href": "https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous",
+      "title": "On Earth We're Briefly Gorgeous",
+      "by": "Ocean Vuong"
     }
   ],
   "want to read": [
@@ -168,10 +174,9 @@ const booksData = {
       "by": "Anne Applebaum"
     },
     {
-      "href": "https://www.goodreads.com/book/show/37506348-winners-take-all",
-      "title": "Winners Take All",
-      "subtitle": "The Elite Charade of Changing the World",
-      "by": "Anand Giridharadas"
+      "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
+      "title": "An Unkindness of Ghosts",
+      "by": "Rivers Solomon"
     }
   ]
 }
