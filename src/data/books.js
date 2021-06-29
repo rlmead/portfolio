@@ -46,6 +46,12 @@ const booksData = {
       "by": "Akiba Solomon and Kenrya Rankin"
     },
     {
+      "href": "https://www.goodreads.com/book/show/52879286-humankind",
+      "title": "Humankind",
+      "subtitle": "A Hopeful History",
+      "by": "Rutger Bregman"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/60931.Kindred",
       "title": "Kindred",
       "by": "Octavia Butler"
@@ -61,6 +67,11 @@ const booksData = {
       "title": "The Next Great Migration",
       "subtitle": "The Beauty and Terror of Life on the Move",
       "by": "Sonia Shah"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous",
+      "title": "On Earth We're Briefly Gorgeous",
+      "by": "Ocean Vuong"
     },
     {
       "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
@@ -99,15 +110,15 @@ const booksData = {
       "by": "Safiya Umoja Noble"
     },
     {
-      "href": "https://www.goodreads.com/book/show/52879286-humankind",
-      "title": "Humankind",
-      "subtitle": "A Hopeful History",
-      "by": "Rutger Bregman"
+      "href": "https://www.goodreads.com/book/show/9328.The_House_of_the_Spirits",
+      "title": "The House of the Spirits",
+      "by": "Isabel Allende"
     },
     {
-      "href": "https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous",
-      "title": "On Earth We're Briefly Gorgeous",
-      "by": "Ocean Vuong"
+      "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
+      "title": "Twilight of Democracy",
+      "subtitle": "The Seductive Lure of Authoritarianism",
+      "by": "Anne Applebaum"
     }
   ],
   "want to read": [
@@ -168,14 +179,14 @@ const booksData = {
       "by": "Heather McGhee"
     },
     {
-      "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
-      "title": "Twilight of Democracy",
-      "subtitle": "The Seductive Lure of Authoritarianism",
-      "by": "Anne Applebaum"
-    },
-    {
       "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
       "title": "An Unkindness of Ghosts",
+      "by": "Rivers Solomon"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
+      "title": "Weapons of Math Destruction",
+      "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
       "by": "Rivers Solomon"
     }
   ]
