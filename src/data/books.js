@@ -41,6 +41,11 @@ const booksData = {
       "by": "Toni Morrison"
     },
     {
+      "href": "https://www.goodreads.com/book/show/9328.The_House_of_the_Spirits",
+      "title": "The House of the Spirits",
+      "by": "Isabel Allende"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/40697594-how-we-fight-white-supremacy",
       "title": "How We Fight White Supremacy",
       "by": "Akiba Solomon and Kenrya Rankin"
@@ -91,6 +96,12 @@ const booksData = {
       "by": "Yaa Gyasi"
     },
     {
+      "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
+      "title": "Twilight of Democracy",
+      "subtitle": "The Seductive Lure of Authoritarianism",
+      "by": "Anne Applebaum"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists",
       "title": "We Should All Be Feminists",
       "by": "Chimamanda Ngozi Adichie"
@@ -108,17 +119,6 @@ const booksData = {
       "title": "Algorithms of Oppression",
       "subtitle": "How Search Engines Reinforce Racism",
       "by": "Safiya Umoja Noble"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/9328.The_House_of_the_Spirits",
-      "title": "The House of the Spirits",
-      "by": "Isabel Allende"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
-      "title": "Twilight of Democracy",
-      "subtitle": "The Seductive Lure of Authoritarianism",
-      "by": "Anne Applebaum"
     }
   ],
   "want to read": [
