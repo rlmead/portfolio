@@ -119,6 +119,12 @@ const booksData = {
       "title": "Algorithms of Oppression",
       "subtitle": "How Search Engines Reinforce Racism",
       "by": "Safiya Umoja Noble"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
+      "title": "Weapons of Math Destruction",
+      "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
+      "by": "Cathy O'Neil"
     }
   ],
   "want to read": [
@@ -181,12 +187,6 @@ const booksData = {
     {
       "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
       "title": "An Unkindness of Ghosts",
-      "by": "Rivers Solomon"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
-      "title": "Weapons of Math Destruction",
-      "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
       "by": "Rivers Solomon"
     }
   ]
