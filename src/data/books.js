@@ -121,6 +121,11 @@ const booksData = {
       "by": "Safiya Umoja Noble"
     },
     {
+      "href": "https://www.goodreads.com/book/show/28818921-difficult-women",
+      "title": "Difficult Women",
+      "by": "Roxane Gay"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
       "title": "Weapons of Math Destruction",
       "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
