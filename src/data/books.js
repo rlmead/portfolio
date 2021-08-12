@@ -19,6 +19,12 @@ const booksData = {
       "by": "Ayana Elizabeth Johnson and Katharine K. Wilkinson"
     },
     {
+      "href": "https://www.goodreads.com/book/show/51152447-caste",
+      "title": "Caste",
+      "subtitle": "The Origins of Our Discontents",
+      "by": "Isabel Wilkerson"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/37572517-emotional-ai",
       "title": "Emotional AI",
       "subtitle": "The Rise of Empathic Media",
@@ -35,9 +41,20 @@ const booksData = {
       "by": "Toni Morrison"
     },
     {
+      "href": "https://www.goodreads.com/book/show/9328.The_House_of_the_Spirits",
+      "title": "The House of the Spirits",
+      "by": "Isabel Allende"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/40697594-how-we-fight-white-supremacy",
       "title": "How We Fight White Supremacy",
       "by": "Akiba Solomon and Kenrya Rankin"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/52879286-humankind",
+      "title": "Humankind",
+      "subtitle": "A Hopeful History",
+      "by": "Rutger Bregman"
     },
     {
       "href": "https://www.goodreads.com/book/show/60931.Kindred",
@@ -57,6 +74,11 @@ const booksData = {
       "by": "Sonia Shah"
     },
     {
+      "href": "https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous",
+      "title": "On Earth We're Briefly Gorgeous",
+      "by": "Ocean Vuong"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
       "title": "Parable of the Sower",
       "subtitle": "Earthseed #1",
@@ -74,9 +96,21 @@ const booksData = {
       "by": "Yaa Gyasi"
     },
     {
+      "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
+      "title": "Twilight of Democracy",
+      "subtitle": "The Seductive Lure of Authoritarianism",
+      "by": "Anne Applebaum"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists",
       "title": "We Should All Be Feminists",
       "by": "Chimamanda Ngozi Adichie"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/37506348-winners-take-all",
+      "title": "Winners Take All",
+      "subtitle": "The Elite Charade of Changing the World",
+      "by": "Anand Giridharadas"
     }
   ],
   "currently reading": [
@@ -87,15 +121,10 @@ const booksData = {
       "by": "Safiya Umoja Noble"
     },
     {
-      "href": "https://www.goodreads.com/book/show/51152447-caste",
-      "title": "Caste",
-      "subtitle": "The Origins of Our Discontents",
-      "by": "Isabel Wilkerson"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
-      "title": "An Unkindness of Ghosts",
-      "by": "Rivers Solomon"
+      "href": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
+      "title": "Weapons of Math Destruction",
+      "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
+      "by": "Cathy O'Neil"
     }
   ],
   "want to read": [
@@ -103,6 +132,12 @@ const booksData = {
       "href": "https://www.goodreads.com/book/show/17607.All_About_Love",
       "title": "All About Love",
       "by": "bell hooks"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/52213526-the-buy-nothing-get-everything-plan",
+      "title": "The Buy Nothing, Get Everything Plan",
+      "subtitle": "Discover the Joy of Spending Less, Sharing More, and Living Generously",
+      "by": "Liesl Clark & Rebecca Rockefeller"
     },
     {
       "href": "https://www.goodreads.com/book/show/23705600-catalog-of-unabashed-gratitude",
@@ -120,12 +155,6 @@ const booksData = {
       "title": "Futureproof",
       "subtitle": "9 Rules for Humans in the Age of Automation",
       "by": "Kevin Roose"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/52879286-humankind",
-      "title": "Humankind",
-      "subtitle": "A Hopeful History",
-      "by": "Rutger Bregman"
     },
     {
       "href": "https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future",
@@ -156,16 +185,9 @@ const booksData = {
       "by": "Heather McGhee"
     },
     {
-      "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
-      "title": "Twilight of Democracy",
-      "subtitle": "The Seductive Lure of Authoritarianism",
-      "by": "Anne Applebaum"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/37506348-winners-take-all",
-      "title": "Winners Take All",
-      "subtitle": "The Elite Charade of Changing the World",
-      "by": "Anand Giridharadas"
+      "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
+      "title": "An Unkindness of Ghosts",
+      "by": "Rivers Solomon"
     }
   ]
 }
