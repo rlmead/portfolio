@@ -10,12 +10,12 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
-  const [view, setView] = useState("web projects");
+  const [view, setView] = useState("knitwear design");
 
   let sections = {
-    "web projects": <ProjectDisplay />,
     "knitwear design": <KnitwearDisplay />,
     "bookshelf": <Bookshelf />,
+    "web projects": <ProjectDisplay />,
     "about me": <About />
   };
 
@@ -25,7 +25,7 @@ function App() {
         expand="md"
         light
         className="navbar-default navbar-dark sticky-top text-secondary bg-success">
-        <h1>R. L. Mead</h1>
+        <h1>Rebecca Mead</h1>
         <NavbarToggler onClick={toggle} />
         <Collapse
           isOpen={isOpen}
