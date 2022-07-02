@@ -187,7 +187,7 @@ const booksData = {
       "href": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
       "title": "Weapons of Math Destruction",
       "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
-      "by": "Rivers Solomon"
+      "by": "Cathy O'Neil"
     }
   ]
 }
