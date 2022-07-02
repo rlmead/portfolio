@@ -1,8 +1,5 @@
 import PuzzleSliderPic from "../img/web-projects/puzzle-slider.png"
 import ToDontPic from "../img/web-projects/to-dont.png"
-import PseudoRandomPic from "../img/web-projects/pseudo-random.png"
-import TicTacToePic from "../img/web-projects/tic-tac-toe.png";
-import WeatherPic from "../img/web-projects/weather.png";
 import ClockPic from "../img/web-projects/clock.png";
 import IdeaNetworkPic from "../img/web-projects/idea-network.png";
 import GFSnacksPic from "../img/web-projects/gluten-free-snacks.png";
@@ -55,40 +52,6 @@ const projectsData = [
             "with this project, i practiced managing state with React and tracking user data with Local Storage.",
             "the brief for this project was to create a to-do list app. i'm a huge fan of to-do lists, but when i built this app, i was looking for a way to compartmentalize my mind - somewhere i could write things down, lock them up, and forget about them while i focused on my immediate work. as i developed this app, i was also using it to plan my time :)",
             "the current version of this app includes lots of functionality, and it's not all intuitive. i would like to pare it down so that it's less of a traditional, all-encompassing to-do list, and primarily serves the purpose i designed it for. i'd also like to improve the visual design with more fun color and layout options."
-        ]
-    },
-    {
-        "title": "restaurant menu",
-        "app_link": "https://pseudo-random-restaurant.web.app/",
-        "code_link": "https://github.com/rlmead/pseudo-random",
-        "date": "october 2020",
-        "img_src": PseudoRandomPic,
-        "img_alt": "restaurant menu app",
-        "about": [
-            "this project is a single-page React app that queries data from an external API to create a restaurant website.",
-            "with this straightforward project, i really began to find my footing with both React and Bootstrap. i challenged myself to focus on neat design, in both engineering and visuals. and i enjoyed using the silly, randomly-generated data from the restaurant menu API to dynamically generate the menu content."
-        ]
-    },
-    {
-        "title": "tic tac toe",
-        "app_link": "https://rlmead.github.io/tic-tac-toe/",
-        "code_link": "https://github.com/rlmead/tic-tac-toe",
-        "date": "october 2020",
-        "img_src": TicTacToePic,
-        "img_alt": "tic-tac-toe app",
-        "about": [
-            "this project was a deep exercise in applying JavaScript logic to create an interactive game. it was also some of my early practice with Bootstrap."
-        ]
-    },
-    {
-        "title": "weather oracle",
-        "app_link": "https://rlmead.github.io/async-weather-app/",
-        "code_link": "https://github.com/rlmead/async-weather-app",
-        "date": "october 2020",
-        "img_src": WeatherPic,
-        "img_alt": "weather oracle app",
-        "about": [
-            "this app introduced me to methods for requesting data from an external API and handling the response asynchronously. it was also one of the first projects that i designed with Bootstrap."
         ]
     },
     {
