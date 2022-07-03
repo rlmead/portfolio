@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin, faInstagram, faRavelry } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faInstagramSquare, faRavelry } from '@fortawesome/free-brands-svg-icons'
 
 const linksData = [
     {
@@ -11,7 +11,7 @@ const linksData = [
     },
     {
         "href": "https://www.instagram.com/beckylee620",
-        "icon": faInstagram
+        "icon": faInstagramSquare
     },
     {
         "href": "https://www.ravelry.com/people/beckylee620",

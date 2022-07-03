@@ -7,10 +7,10 @@ const booksData = {
       "by": "Shoshana Zuboff"
     },
     {
-      "href": "https://www.goodreads.com/book/show/25666050-algorithms-to-live-by",
-      "title": "Algorithms to Live By",
-      "subtitle": "The Computer Science of Human Decisions",
-      "by": "Brian Christian and Tom Griffiths"
+      "href": "https://www.goodreads.com/book/show/17607.All_About_Love",
+      "title": "All About Love",
+      "subtitle": "New Visions",
+      "by": "bell hooks"
     },
     {
       "href": "https://www.goodreads.com/book/show/53231994-all-we-can-save",
@@ -19,16 +19,10 @@ const booksData = {
       "by": "Ayana Elizabeth Johnson and Katharine K. Wilkinson"
     },
     {
-      "href": "https://www.goodreads.com/book/show/51152447-caste",
-      "title": "Caste",
-      "subtitle": "The Origins of Our Discontents",
-      "by": "Isabel Wilkerson"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/37572517-emotional-ai",
-      "title": "Emotional AI",
-      "subtitle": "The Rise of Empathic Media",
-      "by": "Andrew McStay"
+      "href": "https://www.goodreads.com/book/show/56269264-the-dawn-of-everything",
+      "title": "The Dawn of Everything",
+      "subtitle": "A New History of Humanity",
+      "by": "David Graeber and David Wengrow"
     },
     {
       "href": "https://www.goodreads.com/book/show/37570595-friday-black",
@@ -36,9 +30,10 @@ const booksData = {
       "by": "Nana Kwame Adjei-Brenyah"
     },
     {
-      "href": "https://www.goodreads.com/book/show/23602473-god-help-the-child",
-      "title": "God Help the Child",
-      "by": "Toni Morrison"
+      "href": "https://www.goodreads.com/book/show/38255329-how-fascism-works",
+      "title": "How Fascism Works",
+      "subtitle": "The Politics of Us and Them",
+      "by": "Jason F. Stanley"
     },
     {
       "href": "https://www.goodreads.com/book/show/40697594-how-we-fight-white-supremacy",
@@ -52,15 +47,9 @@ const booksData = {
       "by": "Rutger Bregman"
     },
     {
-      "href": "https://www.goodreads.com/book/show/60931.Kindred",
-      "title": "Kindred",
-      "by": "Octavia Butler"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/39979237-moneyland",
-      "title": "Moneyland",
-      "subtitle": "Why Thieves and Crooks Now Rule the World and How To Take It Back",
-      "by": "Oliver Bullough"
+      "href": "https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future",
+      "title": "The Ministry for the Future",
+      "by": "Kim Stanley Robinson"
     },
     {
       "href": "https://www.goodreads.com/book/show/51079278-the-next-great-migration",
@@ -69,15 +58,16 @@ const booksData = {
       "by": "Sonia Shah"
     },
     {
-      "href": "https://www.goodreads.com/book/show/41880609-on-earth-we-re-briefly-gorgeous",
-      "title": "On Earth We're Briefly Gorgeous",
-      "by": "Ocean Vuong"
-    },
-    {
       "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
       "title": "Parable of the Sower",
       "subtitle": "Earthseed #1",
       "by": "Octavia Butler"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/40864002-a-psalm-for-the-wild-built",
+      "title": "A Psalm for the Wild-Built",
+      "subtitle": "Monk & Robot #1",
+      "by": "Becky Chambers"
     },
     {
       "href": "https://www.goodreads.com/book/show/42972014-secondhand",
@@ -86,63 +76,52 @@ const booksData = {
       "by": "Adam Minter"
     },
     {
-      "href": "https://www.goodreads.com/book/show/48570454-transcendent-kingdom",
-      "title": "Transcendent Kingdom",
-      "by": "Yaa Gyasi"
+      "href": "https://www.goodreads.com/book/show/53231851-the-sum-of-us",
+      "title": "The Sum of Us",
+      "subtitle": "What Racism Costs Everyone and How We Can Prosper Together",
+      "by": "Heather McGhee"
     },
     {
-      "href": "https://www.goodreads.com/book/show/22738563-we-should-all-be-feminists",
-      "title": "We Should All Be Feminists",
-      "by": "Chimamanda Ngozi Adichie"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/37506348-winners-take-all",
-      "title": "Winners Take All",
-      "subtitle": "The Elite Charade of Changing the World",
-      "by": "Anand Giridharadas"
+      "href": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
+      "title": "Weapons of Math Destruction",
+      "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
+      "by": "Cathy O'Neil"
     }
   ],
   "currently reading": [
     {
-      "href": "https://www.goodreads.com/book/show/34762552-algorithms-of-oppression",
-      "title": "Algorithms of Oppression",
-      "subtitle": "How Search Engines Reinforce Racism",
-      "by": "Safiya Umoja Noble"
+      "href": "https://www.goodreads.com/book/show/3735293-clean-code",
+      "title": "Clean Code",
+      "subtitle": "A Handbook of Agile Software Craftsmanship",
+      "by": "Robert C. Martin"
     },
     {
-      "href": "https://www.goodreads.com/book/show/9328.The_House_of_the_Spirits",
-      "title": "The House of the Spirits",
-      "by": "Isabel Allende"
+      "href": "https://www.goodreads.com/book/show/40265832-how-to-be-an-antiracist",
+      "title": "How to Be an Antiracist",
+      "by": "Ibram X. Kendi"
     },
     {
-      "href": "https://www.goodreads.com/book/show/50155421-twilight-of-democracy",
-      "title": "Twilight of Democracy",
-      "subtitle": "The Seductive Lure of Authoritarianism",
-      "by": "Anne Applebaum"
+      "href": "https://www.goodreads.com/book/show/40180098-the-overstory",
+      "title": "The Overstory",
+      "by": "Richard Powers"
     }
   ],
   "want to read": [
-    {
-      "href": "https://www.goodreads.com/book/show/17607.All_About_Love",
-      "title": "All About Love",
-      "by": "bell hooks"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/52213526-the-buy-nothing-get-everything-plan",
-      "title": "The Buy Nothing, Get Everything Plan",
-      "subtitle": "Discover the Joy of Spending Less, Sharing More, and Living Generously",
-      "by": "Liesl Clark & Rebecca Rockefeller"
-    },
     {
       "href": "https://www.goodreads.com/book/show/23705600-catalog-of-unabashed-gratitude",
       "title": "Catalog of Unabashed Gratitude",
       "by": "Ross Gay"
     },
     {
-      "href": "https://www.goodreads.com/book/show/40125546-dirt-to-soil",
-      "title": "Dirt to Soil",
-      "subtitle": "One Family's Journey Into Regenerative Agriculture",
-      "by": "Gabe Brown & Courtney White"
+      "href": "https://www.goodreads.com/book/show/304079.The_Essential_Rumi",
+      "title": "The Essential Rumi",
+      "by": "Rumi, Coleman Barks (Translator)"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/56382375-fixed",
+      "title": "Fixed.",
+      "subtitle": "The Fine Art of Problem Solving",
+      "by": "Amy E. Herman"
     },
     {
       "href": "https://www.goodreads.com/book/show/48710241-futureproof",
@@ -151,43 +130,33 @@ const booksData = {
       "by": "Kevin Roose"
     },
     {
-      "href": "https://www.goodreads.com/book/show/50998056-the-ministry-for-the-future",
-      "title": "The Ministry for the Future",
-      "by": "Kim Stanley Robinson"
-    },
-    {
       "href": "https://www.goodreads.com/book/show/41536.My_Soul_to_Keep",
       "title": "My Soul to Keep",
       "subtitle": "African Immortals #1",
       "by": "Tananarive Due"
     },
     {
-      "href": "https://www.goodreads.com/book/show/53404760-reality-and-other-stories",
-      "title": "Reality and Other Stories",
-      "by": "John Lanchester"
+      "href": "https://www.goodreads.com/book/show/34448069-social-reproduction-theory",
+      "title": "Social Reproduction Theory",
+      "subtitle": "Remapping Class, Recentring Oppression",
+      "by": "Tithi Bhattacharya (Editor)"
     },
     {
-      "href": "https://www.goodreads.com/book/show/44782346-stakes-is-high",
-      "title": "Stakes Is High",
-      "subtitle": "Life After the American Dream",
-      "by": "Mychal Denzel Smith"
+      "href": "https://www.goodreads.com/book/show/194805.Understanding_Power",
+      "title": "Understanding Power",
+      "subtitle": "The Indispensable Chomsky",
+      "by": "Noam Chomsky, Peter R. Mitchell (Editor), John Schoeffel (Editor)"
     },
     {
-      "href": "https://www.goodreads.com/book/show/53231851-the-sum-of-us",
-      "title": "The Sum of Us",
-      "subtitle": "What Racism Costs Everyone and How We Can Prosper Together",
-      "by": "Heather McGhee"
+      "href": "https://www.goodreads.com/book/show/56631485-warmth",
+      "title": "Warmth",
+      "subtitle": "Coming of Age at the End of Our World",
+      "by": "Daniel Sherrell"
     },
     {
-      "href": "https://www.goodreads.com/book/show/34381254-an-unkindness-of-ghosts",
-      "title": "An Unkindness of Ghosts",
-      "by": "Rivers Solomon"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/28186015-weapons-of-math-destruction",
-      "title": "Weapons of Math Destruction",
-      "subtitle": "How Big Data Increases Inequality and Threatens Democracy",
-      "by": "Rivers Solomon"
+      "href": "https://www.goodreads.com/book/show/59710202-your-wound-my-garden",
+      "title": "Your Wound, My Garden",
+      "by": "Alok Vaid-Menon"
     }
   ]
 }

@@ -51,7 +51,7 @@ function ProjectDisplay() {
           style={{ position: "relative", top: "0", bottom: "auto" }}>
           <h3>{item.title}</h3>
           <p className="mb-0">{item.date}</p>
-          <FontAwesomeIcon style={{cursor: "pointer"}} icon={faQuestion} className="mr-4" onClick={() => toggle(item.title, item.about, item.app_link, item.code_link)} />
+          <FontAwesomeIcon style={{cursor: "pointer"}} icon={faQuestion} className="mr-4 hover-warning" onClick={() => toggle(item.title, item.about, item.app_link, item.code_link)} />
           <a
             href={item.app_link}
             target="_blank">
@@ -99,10 +99,10 @@ function ProjectDisplay() {
         </ModalBody>
         <ModalFooter>
           <a href={modalAppLink} target="_blank">
-            <Button color="success">app</Button>
+            <Button color="warning">app</Button>
           </a>
           <a href={modalCodeLink} target="_blank">
-            <Button color="success">code</Button>
+            <Button color="warning">code</Button>
           </a>
         </ModalFooter>
       </Modal>

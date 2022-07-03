@@ -32,9 +32,9 @@ function Bookshelf() {
         {
           booksData[booksView].map((item, index) => {
             return (
-              <a href={item.href} target="_blank">
+              <a href={item.href} target="_blank" style={{color: "#FFFCF9"}}>
                 <Card
-                  className="m-2 text-primary border-primary"
+                  className="m-2 text-secondary border-primary bg-info"
                   key={index} >
                   <CardBody>
                     <CardTitle tag="h5">{item.title}</CardTitle>
