@@ -10,13 +10,13 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
-  const [view, setView] = useState("knitwear design");
+  const [view, setView] = useState("home");
 
   let sections = {
-    "knitwear design": <KnitwearDisplay />,
-    "book shelf": <Bookshelf />,
+    "home": <About />,
     "web projects": <ProjectDisplay />,
-    "about me": <About />
+    "knitwear design": <KnitwearDisplay />,
+    "book shelf": <Bookshelf />
   };
 
   return (
@@ -25,7 +25,10 @@ function App() {
         expand="md"
         light
         className="navbar-default navbar-dark sticky-top text-secondary bg-success">
-        <h1>Rebecca Mead</h1>
+        <h1
+          onClick={() => setView("home")}>
+          Rebecca Mead
+        </h1>
         <NavbarToggler onClick={toggle} />
         <Collapse
           isOpen={isOpen}
@@ -41,7 +44,7 @@ function App() {
                     key={index}
                     onClick={() => setView(item)} >
                     <NavLink
-                      className={item !== view && "text-secondary"} >
+                      className={item !== view ? "text-secondary" : "text-warning"}>
                       {item}
                     </NavLink>
                   </NavItem>
