@@ -19,7 +19,8 @@ function Footer() {
                 <a
                   className="text-light"
                   href={item.href}
-                  target='_blank'>
+                  target='_blank'
+                  rel="noopener noreferrer">
                   <FontAwesomeIcon icon={item.icon} />
                 </a>
               </NavItem>

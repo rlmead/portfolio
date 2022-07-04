@@ -11,7 +11,7 @@ function KnitwearDisplay() {
           {
             knitwearData.slice(0, itemsPerCol).map((item, index) => {
               return (
-                <a href={item.href} target="_blank">
+                <a href={item.href} target="_blank" rel="noopener noreferrer">
                   <img className="img-fluid p-3" alt={item.img_alt} src={item.img_src} key={index} />
                 </a>
               )
@@ -22,7 +22,7 @@ function KnitwearDisplay() {
           {
             knitwearData.slice(itemsPerCol, itemsPerCol * 2).map((item, index) => {
               return (
-                <a href={item.href} target="_blank">
+                <a href={item.href} target="_blank" rel="noopener noreferrer">
                   <img className="img-fluid p-3" alt={item.img_alt} src={item.img_src} key={index} />
                 </a>
               )
@@ -33,7 +33,7 @@ function KnitwearDisplay() {
           {
             knitwearData.slice(itemsPerCol * 2).map((item, index) => {
               return (
-                <a href={item.href} target="_blank">
+                <a href={item.href} target="_blank" rel="noopener noreferrer">
                   <img className="img-fluid p-3" alt={item.img_alt} src={item.img_src} key={index} />
                 </a>
               )
