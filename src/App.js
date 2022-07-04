@@ -14,7 +14,7 @@ function App() {
 
   let sections = {
     "knitwear design": <KnitwearDisplay />,
-    "bookshelf": <Bookshelf />,
+    "book shelf": <Bookshelf />,
     "web projects": <ProjectDisplay />,
     "about me": <About />
   };
