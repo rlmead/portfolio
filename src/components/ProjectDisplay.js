@@ -54,7 +54,8 @@ function ProjectDisplay() {
           <FontAwesomeIcon style={{cursor: "pointer"}} icon={faQuestion} className="mr-4 hover-warning" onClick={() => toggle(item.title, item.about, item.app_link, item.code_link)} />
           <a
             href={item.app_link}
-            target="_blank">
+            target="_blank"
+            rel="noopener noreferrer">
             <FontAwesomeIcon icon={faExternalLinkAlt} />
           </a>
         </div>
@@ -98,10 +99,16 @@ function ProjectDisplay() {
           }
         </ModalBody>
         <ModalFooter>
-          <a href={modalAppLink} target="_blank">
+          <a
+            href={modalAppLink}
+            target="_blank"
+            rel="noopener noreferrer">
             <Button color="warning">app</Button>
           </a>
-          <a href={modalCodeLink} target="_blank">
+          <a
+            href={modalCodeLink}
+            target="_blank"
+            rel="noopener noreferrer">
             <Button color="warning">code</Button>
           </a>
         </ModalFooter>

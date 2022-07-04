@@ -6,7 +6,7 @@ import GFSnacksPic from "../img/web-projects/gluten-free-snacks.png";
 
 const projectsData = [
     {
-        "title": "random recipe generator",
+        "title": "recipe generator",
         "app_link": "https://gluten-free-snacks.web.app",
         "code_link": "https://github.com/rlmead/gf-snacks",
         "date": "april 2021",
