@@ -10,7 +10,7 @@
 /build
 
 # deploy
-.firebase/
+.firebase
 
 # misc
 .DS_Store
