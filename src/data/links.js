@@ -14,7 +14,7 @@ const linksData = [
         "icon": faInstagramSquare
     },
     {
-        "href": "https://www.ravelry.com/people/beckylee620",
+        "href": "https://www.ravelry.com/designers/becky-lee",
         "icon": faRavelry
     }
 ]
