@@ -10,10 +10,10 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
-  const [view, setView] = useState("home");
+  const [view, setView] = useState("about me");
 
   let sections = {
-    "home": <About />,
+    "about me": <About />,
     "web projects": <ProjectDisplay />,
     "knitwear design": <KnitwearDisplay />,
     "book shelf": <Bookshelf />
@@ -26,7 +26,7 @@ function App() {
         light
         className="navbar-default navbar-dark sticky-top text-secondary bg-success">
         <h1
-          onClick={() => setView("home")}>
+          onClick={() => setView("about me")}>
           Rebecca Mead
         </h1>
         <NavbarToggler onClick={toggle} />
