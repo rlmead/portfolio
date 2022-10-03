@@ -19,6 +19,11 @@ const booksData = {
       "by": "Ayana Elizabeth Johnson and Katharine K. Wilkinson"
     },
     {
+      "href": "https://www.goodreads.com/book/show/38746152-the-book-of-delights",
+      "title": "The Book of Delights",
+      "by": "Ross Gay"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/56269264-the-dawn-of-everything",
       "title": "The Dawn of Everything",
       "subtitle": "A New History of Humanity",
@@ -52,10 +57,21 @@ const booksData = {
       "by": "Kim Stanley Robinson"
     },
     {
+      "href": "https://www.goodreads.com/book/show/53915574-the-modern-homestead-garden",
+      "title": "The Modern Homestead Garden",
+      "subtitle": "Growing Self-sufficiency in Any Size Backyard",
+      "by": "Gary Pilarchik"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/51079278-the-next-great-migration",
       "title": "The Next Great Migration",
       "subtitle": "The Beauty and Terror of Life on the Move",
       "by": "Sonia Shah"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/40180098-the-overstory",
+      "title": "The Overstory",
+      "by": "Richard Powers"
     },
     {
       "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
@@ -90,10 +106,9 @@ const booksData = {
   ],
   "currently reading": [
     {
-      "href": "https://www.goodreads.com/book/show/3735293-clean-code",
-      "title": "Clean Code",
-      "subtitle": "A Handbook of Agile Software Craftsmanship",
-      "by": "Robert C. Martin"
+      "href": "https://www.goodreads.com/book/show/304079.The_Essential_Rumi",
+      "title": "The Essential Rumi",
+      "by": "Rumi, Coleman Barks (Translator)"
     },
     {
       "href": "https://www.goodreads.com/book/show/40265832-how-to-be-an-antiracist",
@@ -101,22 +116,13 @@ const booksData = {
       "by": "Ibram X. Kendi"
     },
     {
-      "href": "https://www.goodreads.com/book/show/40180098-the-overstory",
-      "title": "The Overstory",
-      "by": "Richard Powers"
+      "href": "https://www.goodreads.com/book/show/58677491-the-memory-librarian",
+      "title": "The Memory Librarian",
+      "subtitle": "And Other Stories of Dirty Computer",
+      "by": "Janelle Monáe"
     }
   ],
   "want to read": [
-    {
-      "href": "https://www.goodreads.com/book/show/23705600-catalog-of-unabashed-gratitude",
-      "title": "Catalog of Unabashed Gratitude",
-      "by": "Ross Gay"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/304079.The_Essential_Rumi",
-      "title": "The Essential Rumi",
-      "by": "Rumi, Coleman Barks (Translator)"
-    },
     {
       "href": "https://www.goodreads.com/book/show/56382375-fixed",
       "title": "Fixed.",
@@ -130,6 +136,12 @@ const booksData = {
       "by": "Kevin Roose"
     },
     {
+      "href": "https://www.goodreads.com/book/show/27213168-i-contain-multitudes",
+      "title": "I Contain Multitudes",
+      "subtitle": "The Microbes Within Us and a Grander View of Life",
+      "by": "Ed Yong"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/41536.My_Soul_to_Keep",
       "title": "My Soul to Keep",
       "subtitle": "African Immortals #1",
@@ -140,6 +152,12 @@ const booksData = {
       "title": "Social Reproduction Theory",
       "subtitle": "Remapping Class, Recentring Oppression",
       "by": "Tithi Bhattacharya (Editor)"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/13552345-sowing-seeds-in-the-desert",
+      "title": "Sowing Seeds in the Desert",
+      "subtitle": "Natural Farming, Global Restoration, and Ultimate Food Security",
+      "by": "Masanobu Fukuoka"
     },
     {
       "href": "https://www.goodreads.com/book/show/194805.Understanding_Power",
