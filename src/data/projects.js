@@ -3,8 +3,21 @@ import ToDontPic from "../img/web-projects/to-dont.png"
 import ClockPic from "../img/web-projects/clock.png";
 import IdeaNetworkPic from "../img/web-projects/idea-network.png";
 import GFSnacksPic from "../img/web-projects/gluten-free-snacks.png";
+import LexAutocompletePic from "../img/web-projects/lex-autocomplete.png";
 
 const projectsData = [
+    {
+        "title": "lex autocomplete",
+        "app_link": "https://ott-autocomplete.web.app",
+        "code_link": "https://github.com/rlmead/lex-autocomplete",
+        "date": "november 2022",
+        "img_src": LexAutocompletePic,
+        "img_alt": "an automatically-generated word string that says 'Easier access to bikes and walking paths in neighborhoods for children would help. This...'. the word string is followed by three buttons suggesting the words 'challenges', 'needs', and 'may', as well as instructions for generating one's own comment.",
+        "about": [
+            "this project explores ideas from the residents of Lexington, Kentucky through combinations of their own words. it presents an interactive interface for generating word strings using suggestions from a trigram text prediction model.",
+            "the trigram model is built on survey responses collected during the 2022 On The Table program run by Civic Lex. this was a series of public conversations that engaged Lexington residents in providing feedback toward the city's Comprehensive Plan.",
+            "there were three main technical parts to this project: creating a trigram model in R with output in a JSON data structure, building a React app for interacting with the trigram model, and hosting both the model and the app on Firebase. this project was a collaboration with linguist Josef Fruehwald; he created the model, and i built the app and set up hosting. we both enjoyed learning more about each other's domains over the course of the project."]
+    },
     {
         "title": "recipe generator",
         "app_link": "https://gluten-free-snacks.web.app",
