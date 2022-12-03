@@ -41,6 +41,7 @@ function KnitwearDisplay() {
           }
         </Col>
       </Row>
+      <Row className="mb-5 p-2"></Row>
     </Container>
   )
 }

@@ -16,6 +16,7 @@ function About() {
           <p>i grow many things in my unruly garden - lettuce, arugula, beans, tomatoes, nasturtiums, cilantro, oregano, rosemary, parsley, mint, thyme, and three varieties of basil. i also have a mulberry tree, a bountiful raspberry patch, and four young blueberry bushes. and i'm lucky to live in a neighborhood full of community gardens where i can forage from abundant fig, cherry, plum, and persimmon trees.</p>
         </Col>
       </Row>
+      <Row className="mb-5 p-2"></Row>
     </Container>
   )
 }
