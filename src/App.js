@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav, NavItem, NavLink } from "reactstrap";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./components/ProjectDisplay";
@@ -9,8 +9,18 @@ import About from "./components/About";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-
   const [view, setView] = useState("about me");
+
+  useEffect(() => {
+    const storedView = JSON.parse(window.localStorage.getItem('appView'));
+    if (storedView) {
+      setView(storedView);
+    }
+  }, [])
+
+  useEffect(() => {
+    window.localStorage.setItem('appView',JSON.stringify(view));
+  }, [view])
 
   let sections = {
     "about me": <About />,

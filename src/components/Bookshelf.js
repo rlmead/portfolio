@@ -1,9 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Nav, NavItem, NavLink, CardDeck, Card, CardBody, CardTitle, CardSubtitle, CardText, Row } from "reactstrap";
 import booksData from "../data/books";
 
 function Bookshelf() {
   const [booksView, setBooksView] = useState("currently reading");
+
+  useEffect(() => {
+    const storedBooksView = JSON.parse(window.localStorage.getItem('booksView'));
+    if (storedBooksView) {
+      setBooksView(storedBooksView);
+    }
+  }, [])
+
+  useEffect(() => {
+    window.localStorage.setItem('booksView',JSON.stringify(booksView));
+  }, [booksView])
 
   return (
     <>
