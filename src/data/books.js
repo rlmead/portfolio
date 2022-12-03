@@ -30,11 +30,6 @@ const booksData = {
       "by": "David Graeber and David Wengrow"
     },
     {
-      "href": "https://www.goodreads.com/book/show/37570595-friday-black",
-      "title": "Friday Black",
-      "by": "Nana Kwame Adjei-Brenyah"
-    },
-    {
       "href": "https://www.goodreads.com/book/show/38255329-how-fascism-works",
       "title": "How Fascism Works",
       "subtitle": "The Politics of Us and Them",
@@ -78,6 +73,12 @@ const booksData = {
       "title": "Parable of the Sower",
       "subtitle": "Earthseed #1",
       "by": "Octavia Butler"
+    },
+    {
+      "href": "https://www.goodreads.com/book/show/40864030-a-prayer-for-the-crown-shy",
+      "title": "A Prayer for the Crown-Shy",
+      "subtitle": "Monk & Robot #2",
+      "by": "Becky Chambers"
     },
     {
       "href": "https://www.goodreads.com/book/show/40864002-a-psalm-for-the-wild-built",
