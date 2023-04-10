@@ -108,15 +108,15 @@ const booksData = {
   ],
   "currently reading": [
     {
+      "href": "https://www.goodreads.com/book/show/45731395-the-deficit-myth",
+      "title": "The Deficit Myth",
+      "subtitle": "Modern Monetary Theory and the Birth of the People's Economy",
+      "by": "Stephanie Kelton"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/304079.The_Essential_Rumi",
       "title": "The Essential Rumi",
       "by": "Rumi, Coleman Barks (Translator)"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/27213168-i-contain-multitudes",
-      "title": "I Contain Multitudes",
-      "subtitle": "The Microbes Within Us and a Grander View of Life",
-      "by": "Ed Yong"
     },
     {
       "href": "https://www.goodreads.com/book/show/58677491-the-memory-librarian",
