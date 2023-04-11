@@ -1,11 +1,24 @@
 import PuzzleSliderPic from "../img/web-projects/puzzle-slider.png"
 import ToDontPic from "../img/web-projects/to-dont.png"
-import ClockPic from "../img/web-projects/clock.png";
 import IdeaNetworkPic from "../img/web-projects/idea-network.png";
 import GFSnacksPic from "../img/web-projects/gluten-free-snacks.png";
 import LexAutocompletePic from "../img/web-projects/lex-autocomplete.png";
+import LCCRTallyPic from "../img/web-projects/lccr-tally.png"
 
 const projectsData = [
+    {
+        "title": "pay-as-you-wish calculator",
+        "app_link": "https://lexcreativereuse.web.app",
+        "code_link": "https://github.com/rlmead/lccr",
+        "date": "february 2023",
+        "img_src": LCCRTallyPic,
+        "img_alt": "a screenshot of a section of a calculator web app designed for a shop that uses a sliding scale pricing system with color-themed categories.",
+        "about": [
+            "in 2022, a creative reuse shop opened in my neighborhood, and i became a regular volunteer there. this shop sells secondhand arts and crafts supplies that have been donated by the community to prevent them from going to waste.",
+            "our customers can pay what they wish for the supplies, and we offer suggested price bands for each item. we label items with different colors to communicate their suggested price bands. this flexible pricing system is complicated to tally, so i decided to make a customized calculator to help us out!",
+            "this calculator is a TypeScript React app hosted on Firebase."
+        ]
+    },
     {
         "title": "lex autocomplete",
         "app_link": "https://ott-autocomplete.web.app",
@@ -65,19 +78,6 @@ const projectsData = [
             "with this project, i practiced managing state with React and tracking user data with Local Storage.",
             "the brief for this assignment was to create a to-do list app. i like making to-do lists, but when i built this app, i was looking for a way to compartmentalize my mind - somewhere i could write things down, lock them up, and forget about them while i focused on high-priority work.",
             "this app has lots of functionality, and it's not all intuitive. i would like to pare it down so that it's less of a traditional to-do list, and primarily serves the purpose i designed it for: compartmentalizing. i'd also like to improve the visual and interactive design."
-        ]
-    },
-    {
-        "title": "moody clock",
-        "app_link": "https://rlmead.github.io/digital-clock/",
-        "code_link": "https://github.com/rlmead/digital-clock",
-        "date": "september 2020",
-        "img_src": ClockPic,
-        "img_alt": "digital clock app",
-        "about": [
-            "building this app got me some practice using JavaScript to update a simple HTML page.",
-            "this design came from an idea to build a clock that has its own personality and doesn't always do what we expect clocks to do. i built two modes: a \"happy\" mode that tells the correct time when it's sunny out, and a \"grumpy\" mode that misbehaves when the weather is bad.",
-            "when i first built this app, i didn't know how to query a weather API, so the user has to toggle between the two modes manually. i'd like to update this app to automatically change modes based on the weather in the user's location."
         ]
     }
 ]

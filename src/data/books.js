@@ -58,15 +58,16 @@ const booksData = {
       "by": "Gary Pilarchik"
     },
     {
+      "href": "https://www.goodreads.com/book/show/50358103-money",
+      "title": "Money",
+      "subtitle": "The True Story of a Made-Up Thing",
+      "by": "Jacob Goldstein"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/51079278-the-next-great-migration",
       "title": "The Next Great Migration",
       "subtitle": "The Beauty and Terror of Life on the Move",
       "by": "Sonia Shah"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/40180098-the-overstory",
-      "title": "The Overstory",
-      "by": "Richard Powers"
     },
     {
       "href": "https://www.goodreads.com/book/show/52397.Parable_of_the_Sower",
@@ -107,14 +108,15 @@ const booksData = {
   ],
   "currently reading": [
     {
+      "href": "https://www.goodreads.com/book/show/45731395-the-deficit-myth",
+      "title": "The Deficit Myth",
+      "subtitle": "Modern Monetary Theory and the Birth of the People's Economy",
+      "by": "Stephanie Kelton"
+    },
+    {
       "href": "https://www.goodreads.com/book/show/304079.The_Essential_Rumi",
       "title": "The Essential Rumi",
       "by": "Rumi, Coleman Barks (Translator)"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/40265832-how-to-be-an-antiracist",
-      "title": "How to Be an Antiracist",
-      "by": "Ibram X. Kendi"
     },
     {
       "href": "https://www.goodreads.com/book/show/58677491-the-memory-librarian",
@@ -124,6 +126,12 @@ const booksData = {
     }
   ],
   "want to read": [
+    {
+      "href": "https://www.goodreads.com/book/show/36722634-artificial-unintelligence",
+      "title": "Artificial Unintelligence",
+      "subtitle": "How Computers Misunderstand the World",
+      "by": "Meredith Broussard"
+    },
     {
       "href": "https://www.goodreads.com/book/show/56382375-fixed",
       "title": "Fixed.",
@@ -135,12 +143,6 @@ const booksData = {
       "title": "Futureproof",
       "subtitle": "9 Rules for Humans in the Age of Automation",
       "by": "Kevin Roose"
-    },
-    {
-      "href": "https://www.goodreads.com/book/show/27213168-i-contain-multitudes",
-      "title": "I Contain Multitudes",
-      "subtitle": "The Microbes Within Us and a Grander View of Life",
-      "by": "Ed Yong"
     },
     {
       "href": "https://www.goodreads.com/book/show/41536.My_Soul_to_Keep",
